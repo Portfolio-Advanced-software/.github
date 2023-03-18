@@ -142,10 +142,10 @@ You set up environments and tools which support your chosen software development
 #### Substantiation
 
 1.1: Sprint 0
--
+
 
 1.2: Sprint 1
--
+
 
 
 
@@ -163,10 +163,10 @@ You can explain what a cloud platform provider is and can deploy (parts of) your
 #### Substantiation
 
 1.1: Sprint 0
--
+
 
 1.2: Sprint 1
--
+
 
 
 
@@ -182,9 +182,9 @@ You investigate how to minimize security risks for your application, and you inc
 #### Substantiation
 
 1.1: Sprint 0
--
+
 1.2: Sprint 1
--
+
 
 
 
@@ -200,10 +200,10 @@ You are aware of specific data requirements for enterprise systems. You apply be
 #### Substantiation
 
 1.1: Sprint 0
--
+
 
 1.2: Sprint 1
--
+
 
 
 
