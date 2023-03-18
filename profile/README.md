@@ -213,12 +213,9 @@ You are aware of specific data requirements for enterprise systems. You apply be
 ## Reflection
 Reflect here on your (study) process per sprint.
 Where are you getting stuck, what is going well, where do you need help. This is not about the content; you have described this in the learning outcomes. 
-Sprint 0
-Sprint 1
-Sprint 2
-Sprint 3
-Sprint 4
-Sprint 5
+
+### Sprint 1
+During sprint 1 I focussed to much on the group project and less on my individual project, that explains why certain things are still missing. Nevertheless did I do a great job in the group project and made a lot of progression and gathered knowledge.
 
 
 ## Conclusion
