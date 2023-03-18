@@ -3,16 +3,15 @@
 ## Introduction
 This document is created to help the reader use this document to easily find certain products and sum up all the context. The reading guide is written for my personal portfolio to prove my level of proficiency on some enterprise software engineering topics. There are nine learning outcomes that are related to this topic and need proof of my knowledge I will be gathering during this semester. To proof this I will be working on two projects: a group and individual project. 
 
+### Group project - Stockbrood
+The group project will be done by our group existing of five students and one product owner (PO). The PO is a trader on multiple markets and is looking for a way to automate testing his trading strategies. Everything about this project can be found [here](https://github.com/S-A-RB05).
 
-< Explanation document, reading guide, …>
-This guide guides the reader through the contents of your portfolio and shows where you stand in relation to your learning outcomes at a particular moment in the semester.
-The portfolio is the collection of all partial results that you have achieved at a particular moment (snapshot) in the semester. This snapshot is made at the end of a sprint. For each learning outcome, you describe at what level you are. In addition, in the evaluation of each sprint, you describe the steps you are going to take to reach the next level.
-At the end of the semester, your portfolio contains partial results that demonstrate that you have performed at a proficient level for all learning outcomes. You also conclude at that moment with a conclusion, which reflects on how your semester went.
-Partial outcomes are all the products you have realised for the individual and pro task project: you can think of: Code, documents, snapshots, projects of followed tutorials, interviews, etcetera.
-The portfolio and your reading guide are growing during the semester.
 
-< Explanation group project>
-< Explanation of individual project>.
+### Individual project - BingeBuster
+The individual project is platform based on Netflix. Because I'm interested in services like Plex it would seem a good opportunity to learn more about it. Everything about this project can be found [here](https://github.com/Portfolio-Advanced-software/BingeBuster-WebUI).
+
+
+### Start
 <Explain your starting knowledge, experience, interests and what you would like to learn and achieve this semester>.
 
 
