@@ -5,7 +5,7 @@
     <tr>
       <td><b>Title:</b> <br>1. Uploading movies</td>
       <td><b>Priority:</b> <br> 5/5</td>
-      <td><b>Estimate:</b> <br> 0 </td>
+      <td><b>Estimate:</b> <br> - </td>
     </tr>
   </thead>
   <tbody>
@@ -31,8 +31,8 @@
   <thead>
     <tr>
       <td><b>Title:</b> <br>2. Editing movies</td>
-      <td><b>Priority:</b> <br> 5/5</td>
-      <td><b>Estimate:</b> <br> 0 </td>
+      <td><b>Priority:</b> <br> 3/5</td>
+      <td><b>Estimate:</b> <br> - </td>
     </tr>
   </thead>
   <tbody>
@@ -62,8 +62,8 @@
   <thead>
     <tr>
       <td><b>Title:</b> <br>3. Delete movies</td>
-      <td><b>Priority:</b> <br> 5/5</td>
-      <td><b>Estimate:</b> <br> 0 </td>
+      <td><b>Priority:</b> <br> 3/5</td>
+      <td><b>Estimate:</b> <br> - </td>
     </tr>
   </thead>
   <tbody>
@@ -88,8 +88,8 @@
   <thead>
     <tr>
       <td><b>Title:</b> <br>4. Register</td>
-      <td><b>Priority:</b> <br> 5/5</td>
-      <td><b>Estimate:</b> <br> 0 </td>
+      <td><b>Priority:</b> <br> 4/5</td>
+      <td><b>Estimate:</b> <br> - </td>
     </tr>
   </thead>
   <tbody>
@@ -121,8 +121,8 @@
   <thead>
     <tr>
       <td><b>Title:</b> <br>5. Login</td>
-      <td><b>Priority:</b> <br> 5/5</td>
-      <td><b>Estimate:</b> <br> 0 </td>
+      <td><b>Priority:</b> <br> 4/5</td>
+      <td><b>Estimate:</b> <br> - </td>
     </tr>
   </thead>
   <tbody>
@@ -149,7 +149,7 @@
     <tr>
       <td><b>Title:</b> <br>6. Movie browsing</td>
       <td><b>Priority:</b> <br> 5/5</td>
-      <td><b>Estimate:</b> <br> 0 </td>
+      <td><b>Estimate:</b> <br> - </td>
     </tr>
   </thead>
   <tbody>
@@ -180,8 +180,8 @@
   <thead>
     <tr>
       <td><b>Title:</b> <br>7. Movie details</td>
-      <td><b>Priority:</b> <br> 5/5</td>
-      <td><b>Estimate:</b> <br> 0 </td>
+      <td><b>Priority:</b> <br> 3/5</td>
+      <td><b>Estimate:</b> <br> - </td>
     </tr>
   </thead>
   <tbody>
@@ -209,7 +209,7 @@
     <tr>
       <td><b>Title:</b> <br>8. Movie streaming</td>
       <td><b>Priority:</b> <br> 5/5</td>
-      <td><b>Estimate:</b> <br> 0 </td>
+      <td><b>Estimate:</b> <br> - </td>
     </tr>
   </thead>
   <tbody>
@@ -243,7 +243,7 @@
     <tr>
       <td><b>Title:</b> <br>9. Delete account</td>
       <td><b>Priority:</b> <br> 5/5</td>
-      <td><b>Estimate:</b> <br> 0 </td>
+      <td><b>Estimate:</b> <br> - </td>
     </tr>
   </thead>
   <tbody>
@@ -269,8 +269,8 @@
   <thead>
     <tr>
       <td><b>Title:</b> <br>10. Watch history</td>
-      <td><b>Priority:</b> <br> 5/5</td>
-      <td><b>Estimate:</b> <br> 0 </td>
+      <td><b>Priority:</b> <br> 3/5</td>
+      <td><b>Estimate:</b> <br> - </td>
     </tr>
   </thead>
   <tbody>
@@ -300,8 +300,8 @@
   <thead>
     <tr>
       <td><b>Title:</b> <br>11. Subtitle stream</td>
-      <td><b>Priority:</b> <br> 5/5</td>
-      <td><b>Estimate:</b> <br> 0 </td>
+      <td><b>Priority:</b> <br> 4/5</td>
+      <td><b>Estimate:</b> <br> - </td>
     </tr>
   </thead>
   <tbody>
@@ -326,8 +326,8 @@
   <thead>
     <tr>
       <td><b>Title:</b> <br>12. Confirm subtitle</td>
-      <td><b>Priority:</b> <br> 5/5</td>
-      <td><b>Estimate:</b> <br> 0 </td>
+      <td><b>Priority:</b> <br> 4/5</td>
+      <td><b>Estimate:</b> <br> - </td>
     </tr>
   </thead>
   <tbody>
