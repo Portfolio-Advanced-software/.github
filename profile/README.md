@@ -34,7 +34,7 @@ You develop and deploy enterprise software, both individually and as a team, tha
 The first sprint I developed a feeling for what enterprise software means and started to translate it to user stories that keep certain enterprise topics into mind like speed and scalability to improve the customer's processes.
 
 1.2: Sprint 1
-
+I created simple non functional requirements that are linked to enterprise software and applicable to my individual project. [Non-functional requirements](https://github.com/Portfolio-Advanced-software/.github/blob/main/BingeBuster/Non-functional%20requirements%20BingeBuster.md)
 
 
 
@@ -123,7 +123,7 @@ Besides functionality, you develop the architecture of enterprise software based
 
 
 1.2: Sprint 1
-For my individual project I created a C1 & C2 model to base my project on. The architecture can be found [here](https://github.com/Portfolio-Advanced-software/.github/blob/main/BingeBuster/Architecture.md).
+For my individual project I created a C1 & C2 model to base my project on. The architecture can be found [here](https://github.com/Portfolio-Advanced-software/.github/blob/main/BingeBuster/Architecture.md). Besides that I spent a lot of time figuring out how to create Dockerfiles and how to run MetaTrader inside a Docker container. I wrote a little tutorial about it that can be found [here](https://github.com/Portfolio-Advanced-software/.github/blob/main/Documentation/Creating%20docker%20container%20running%20MetaTrader%205.md). Finally I created a little POC to test communication between two GO servers using rabbitMQ that can be found [here](https://github.com/Portfolio-Advanced-software/GO-RabbitMQ-POC)
 
 
 
@@ -166,7 +166,7 @@ You can explain what a cloud platform provider is and can deploy (parts of) your
 
 
 1.2: Sprint 1
-
+I did some research to find a cloud service for RabbitMQ for [my POC](https://github.com/Portfolio-Advanced-software/GO-RabbitMQ-POC). This would also come in handy for our group project because we can all use the same one and that'll make it easier for development and testing.
 
 
 
