@@ -18,55 +18,198 @@ The portfolio and your reading guide are growing during the semester.
 
 
 ## Learning outcomes
-Indicate where you think you are on the development scale, based on the feedback from your teachers. 
-Describe to the reader for each learning outcome what you have achieved during the past sprint and why this contributes to the learning outcome. Substantiate the why with feedback from your technical tutors. 
-The portfolio grows with content; sometimes certain content will no longer be relevant. Describe each sprint from the current status of your portfolio.  You use hyperlinks to refer the reader directly to material in your portfolio.
-(Reflection on progress) indicate where you are now and what your tutors have given as feedback to grow further on the development scale.
-
+Scale for every learning outcomes: undefined, orienting, beginning, proficient, advanced.
 
 ### Learning outcome 1 - Future-oriented Organization
-<Description learning outcome>
-Development (undefined, orienting, beginning, proficient, advanced)
+You develop and deploy enterprise software, both individually and as a team, that fits the current question and needs of your stakeholders. Your final solution is designed with the possibility for future further development. 
 
-ID	Beschrijving	Type	Level
-1.1	Sprint 0	Group project	
+#### Score
 | Id | Description | Type | Level |
 |---|---|---|---|
-| 1.1  | Sprint 0 | Group project  |  Orienting |
-| 1.2 |   |   |  Individual project |
-|   |   |   |   |
+| 1.1 | Sprint 0 | Group project | Orienting |
+| 1.2 | Sprint 1 | Individual project | Orienting |
 
-Substantiation
+#### Substantiation
+
+1.1: Sprint 0
+The first sprint I developed a feeling for what enterprise software means and started to translate it to user stories that keep certain enterprise topics into mind like speed and scalability to improve the customer's processes.
+
+1.2: Sprint 1
+
+
+
+
+
+
+
+
+### Learning Outcome 2 - Investigative Problem-Solving
+You deliver professional products according to planning, which is the result of solving problems in a structured and methodical approach. You demonstrate a critical view towards your own and other people’s work. 
+
+#### Score
+| Id | Description | Type | Level |
+|---|---|---|---|
+| 1.1 | Sprint 0 | Group project | Orienting |
+| 1.2 | Sprint 1 | Individual project | Orienting |
+
+#### Substantiation
+
+1.1: Sprint 0
+The first sprint I developed a feeling for what enterprise software means and started to translate it to user stories that keep certain enterprise topics into mind like speed and scalability to improve the customer's processes.
+
+1.2: Sprint 1
+I wrote a researchplan for my individual research that will help the group project ass well as my individual project. This plan can be found [here](https://github.com/Portfolio-Advanced-software/.github/blob/main/Research/Research%20plan%20micro%20service%20communication.md). Besides that I created user stories for my individual project they can be found [here](https://github.com/Portfolio-Advanced-software/.github/blob/main/BingeBuster/User%20stories%20BingeBuster.md).
+
+
+
+
+
+### Learning Outcome 3 - Personal Leadership
+You acquire skills required for your future career. You are aware of multiple career paths and can reflect which ones fit best, considering your (potential) skills and ambitions. You are aware of developments in software engineering and can signal trends. 
+
+#### Score
+| Id | Description | Type | Level |
+|---|---|---|---|
+| 1.1 | Sprint 1 | Individual project | Orienting |
+
+#### Substantiation
+
+1.1: Sprint 1
+I'm already busy to prepare myself for a minor abroad so I'm busy with developing myself and my career. I will write more in [this document](https://github.com/Portfolio-Advanced-software/.github/blob/main/Personal%20development.md) to support this learning outcome.
+
+
+
+
+
+
+
+
+
+
+
+
+### Learning Outcome 4 - Targeted Interaction
+You use appropriate communication considering your role in a team, your audience and the medium to convey your message and results of your software development process.
+
+#### Score
+| Id | Description | Type | Level |
+|---|---|---|---|
+| 1.1 | Sprint 0 | Group project | Orienting |
+
+#### Substantiation
+
+1.1: Sprint 0
+We had two great standups with our semester coach agreeing. We really started off great, because we immidiately created a jira board with user stories including story points that we figured out doing poker planning. We also created a group contract at the start to ensure everybody's availability and responsibility.
+
+
+
+
+
+
+
+
+
+### Learning Outcome 5 - Scalable Architectures
+Besides functionality, you develop the architecture of enterprise software based on quality attributes. You especially consider attributes most relevant to enterprise contexts with high volume data and events. You design your architecture with future adaptation in mind. Your development environment supports this by being able to independently deploy and monitor the running parts of your application. 
+
+#### Score
+| Id | Description | Type | Level |
+|---|---|---|---|
+| 1.1 | Sprint 0 | Group project | Orienting |
+| 1.2 | Sprint 1 | Individual project | Orienting |
+
+#### Substantiation
 
 1.1: Sprint 0
 
-For example: In the last sprint an initial architecture was realised based on an analysis of the customer requirements. These wishes were obtained by means of interviews and event storming. With these results, we as a team show that we map out the requirements via a backlog in a professional manner. 
+
 1.2: Sprint 1
-In the individual project I have bla bla bla.
-Reflection on my progress
-
-1:1: Sprint 0
-
-My semester coach indicated (link to feedback) that as a group we need to apply a clear scrum process. We are not yet able to give insight into the burndown. For that, we need a tighter storypoint planning and remainng storypoint estimation per stand-up. Once we have convincingly laid down the process, we move up the development scale to 'beginning'.
+For my individual project I created a C1 & C2 model to base my project on. The architecture can be found [here](https://github.com/Portfolio-Advanced-software/.github/blob/main/BingeBuster/Architecture.md).
 
 
 
 
-### Learning Outcome 2 - Investigative Problem-Solving 
 
-### Learning Outcome 3 - Personal Leadership
-
-### Learning Outcome 4 - Targeted Interaction
-
-### Learning Outcome 5 - Scalable Architectures
 
 ### Learning Outcome 6 - Development and Operations (DevOps)
+You set up environments and tools which support your chosen software development process. You provide governance for all stakeholders’ goals. You aim for as much automation as possible, to enable short release times and high software quality.
+
+#### Score
+| Id | Description | Type | Level |
+|---|---|---|---|
+| 1.1 | Sprint 0 | Group project | Undefined |
+| 1.2 | Sprint 1 | Individual project | Undefined |
+
+#### Substantiation
+
+1.1: Sprint 0
+-
+
+1.2: Sprint 1
+-
+
+
+
+
 
 ### Learning Outcome 7 - Cloud Services
+You can explain what a cloud platform provider is and can deploy (parts of) your application to a cloud platform. You integrate cloud services (for example: Serverless computing, cloud storage, container management) into your enterprise application, and can explain the added value of these cloud services for your application.
+
+#### Score
+| Id | Description | Type | Level |
+|---|---|---|---|
+| 1.1 | Sprint 0 | Group project | Undefined |
+| 1.2 | Sprint 1 | Individual project | Undefined |
+
+#### Substantiation
+
+1.1: Sprint 0
+-
+
+1.2: Sprint 1
+-
+
+
 
 ### Learning Outcome 8 - Security by Design
+You investigate how to minimize security risks for your application, and you incorporate best practices in your whole software development process. 
+
+#### Score
+| Id | Description | Type | Level |
+|---|---|---|---|
+| 1.1 | Sprint 0 | Group project | Undefined |
+| 1.2 | Sprint 1 | Individual project | Undefined |
+
+#### Substantiation
+
+1.1: Sprint 0
+-
+1.2: Sprint 1
+-
+
+
 
 ### Learning Outcome 9 – Distributed Data
+You are aware of specific data requirements for enterprise systems. You apply best practices for distributed data during your whole development process, both for non-functional and functional requirements. You especially take legal and ethical issues into consideration.
+
+#### Score
+| Id | Description | Type | Level |
+|---|---|---|---|
+| 1.1 | Sprint 0 | Group project | Undefined |
+| 1.2 | Sprint 1 | Individual project | Undefined |
+
+#### Substantiation
+
+1.1: Sprint 0
+-
+
+1.2: Sprint 1
+-
+
+
+
+
+
 
 ## Reflection
 Reflect here on your (study) process per sprint.
