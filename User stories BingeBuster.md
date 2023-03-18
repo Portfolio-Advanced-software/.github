@@ -84,7 +84,7 @@
     </tr>
   </tbody>
 </table>
-<table align="right">
+<table align="left">
   <thead>
     <tr>
       <td><b>Title:</b> <br>4. Register</td>
@@ -117,7 +117,7 @@
 </br>
 
 
-<table align="left">
+<table align="right">
   <thead>
     <tr>
       <td><b>Title:</b> <br>5. Login</td>
