@@ -136,15 +136,13 @@ You set up environments and tools which support your chosen software development
 #### Score
 | Id | Description | Type | Level |
 |---|---|---|---|
-| 1.1 | Sprint 0 | Group project | Undefined |
-| 1.2 | Sprint 1 | Individual project | Undefined |
+| 1.1 | Sprint 0 | Group project | Orienting |
+| 1.2 | Sprint 1 | Individual project | Orienting |
 
 #### Substantiation
 
-1.1: Sprint 0
-
-
-1.2: Sprint 1
+1.1: Sprint 1
+For our sprint 1 delivery I helped create the CI/CD to docker hub to make it as easy as possible for our customer to deploy it on its own systems. Beside that I created a CI start for my front-end that builds and tests my project in a headless environment. The deployment is not working yet, but I'm asure that this will be fixed soon.
 
 
 
