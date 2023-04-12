@@ -94,11 +94,24 @@ You use appropriate communication considering your role in a team, your audience
 | Id | Description | Type | Level |
 |---|---|---|---|
 | 1.1 | Sprint 0 | Group project | Orienting |
+| 1.2 | Sprint 1 | Group project | Beginning |
 
 #### Substantiation
 
 1.1: Sprint 0
 We had two great standups with our semester coach agreeing. We really started off great, because we immidiately created a jira board with user stories including story points that we figured out doing poker planning. We also created a group contract at the start to ensure everybody's availability and responsibility.
+
+<img width="819" alt="Scherm­afbeelding 2023-04-12 om 10 05 05" src="https://user-images.githubusercontent.com/73555911/231393266-f27481dd-fcec-410a-b1c9-57b7f9cfe11b.png">
+
+Beside that we also did a peer review to assess our skills and contributions to the project.
+
+<img width="817" alt="Scherm­afbeelding 2023-04-12 om 10 06 01" src="https://user-images.githubusercontent.com/73555911/231393720-bd92af6e-1fb3-40c6-8534-e5074dd45bda.png">
+
+
+1.2: Sprint 1
+We continued with the standups and they became more meaningful when starting on the project. We adjusted the user stories after the planning with our product owner and start working on an real agile way in sprint 1, by creating tasks related to the user stories. The jira board was pretty much up to date during the whole sprint.
+
+<img src="https://i.postimg.cc/fbZSWSxz/Scherm-afbeelding-2023-03-29-om-22-14-11.png" width=500 height=250>
 
 
 
@@ -116,6 +129,7 @@ Besides functionality, you develop the architecture of enterprise software based
 |---|---|---|---|
 | 1.1 | Sprint 0 | Group project | Orienting |
 | 1.2 | Sprint 1 | Individual project | Orienting |
+| 1.3 | Sprint 2 | Individual project | Orienting |
 
 #### Substantiation
 
@@ -125,6 +139,8 @@ Besides functionality, you develop the architecture of enterprise software based
 1.2: Sprint 1
 For my individual project I created a C1 & C2 model to base my project on. The architecture can be found [here](https://github.com/Portfolio-Advanced-software/.github/blob/main/BingeBuster/Architecture.md). Besides that I spent a lot of time figuring out how to create Dockerfiles and how to run MetaTrader inside a Docker container. I wrote a little tutorial about it that can be found [here](https://github.com/Portfolio-Advanced-software/.github/blob/main/Documentation/Creating%20docker%20container%20running%20MetaTrader%205.md). Finally I created a little POC to test communication between two GO servers using rabbitMQ that can be found [here](https://github.com/Portfolio-Advanced-software/GO-RabbitMQ-POC)
 
+1.3 Sprint 2
+I created the repo's for my project with the minimum for messaging through RabbitMQ, beside that I started with kubernetes in the group project so I can use this for my individual.
 
 
 
@@ -137,12 +153,16 @@ You set up environments and tools which support your chosen software development
 | Id | Description | Type | Level |
 |---|---|---|---|
 | 1.1 | Sprint 0 | Group project | Orienting |
-| 1.2 | Sprint 1 | Individual project | Orienting |
+| 1.2 | Sprint 2 | Individual project | Orienting |
+
 
 #### Substantiation
 
 1.1: Sprint 1
-For our sprint 1 delivery I helped create the CI/CD to docker hub to make it as easy as possible for our customer to deploy it on its own systems. Beside that I created a CI start for my front-end that builds and tests my project in a headless environment. The deployment is not working yet, but I'm asure that this will be fixed soon.
+For our sprint 1 delivery I helped create the CI/CD to docker hub to make it as easy as possible for our customer to deploy it on its own systems. 
+
+1.2: Sprint 2
+Beside that I created a CI start for my front-end that builds and tests my project in a headless environment. The deployment is not working yet, but I'm asure that this will be fixed soon. See [this repo](https://github.com/Portfolio-Advanced-software/BingeBuster-WebUI)
 
 
 
@@ -214,6 +234,9 @@ Where are you getting stuck, what is going well, where do you need help. This is
 
 ### Sprint 1
 During sprint 1 I focussed to much on the group project and less on my individual project, that explains why certain things are still missing. Nevertheless did I do a great job in the group project and made a lot of progression and gathered knowledge.
+
+### Sprint 2
+During sprint 2 I had a little bit less time because I was ill, but none theless I created some building blocks that will help me next sprint to get to the learning outcomes quicker and I already start to get familiar with certain topics.
 
 
 ## Conclusion
