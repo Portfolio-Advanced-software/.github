@@ -109,10 +109,11 @@ Beside that we also did a peer review to assess our skills and contributions to 
 
 
 1.2: Sprint 1
-We continued with the standups and they became more meaningful when starting on the project. We adjusted the user stories after the planning with our product owner and start working on an real agile way in sprint 1, by creating tasks related to the user stories. The jira board was pretty much up to date during the whole sprint.
+We continued with the standups and they became more meaningful when starting on the project. We adjusted the user stories after the planning with our product owner and start working on an real agile way in sprint 1, by creating tasks related to the user stories. The jira board was pretty much up to date during the whole sprint. For my individual i also created a git project board
 
 <img src="https://i.postimg.cc/fbZSWSxz/Scherm-afbeelding-2023-03-29-om-22-14-11.png" width=500 height=250>
 
+<img width="1438" alt="Scherm­afbeelding 2023-04-13 om 09 40 16" src="https://user-images.githubusercontent.com/73555911/231689273-686b29c8-c1e6-4e32-a024-c8499ebe798c.png">
 
 
 
