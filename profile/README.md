@@ -146,6 +146,10 @@ I created the repo's for my project with the minimum for messaging through Rabbi
 
 
 
+https://user-images.githubusercontent.com/73555911/231696399-f423322d-51aa-4010-b949-ff2b0f4e2d75.mp4
+
+
+
 
 ### Learning Outcome 6 - Development and Operations (DevOps)
 You set up environments and tools which support your chosen software development process. You provide governance for all stakeholders’ goals. You aim for as much automation as possible, to enable short release times and high software quality.
