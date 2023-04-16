@@ -171,6 +171,10 @@ For our sprint 1 delivery I helped create the CI/CD to docker hub to make it as 
 1.2: Sprint 2
 Beside that I created a CI start for my front-end that builds and tests my project in a headless environment. The deployment is not working yet, but I'm asure that this will be fixed soon. See [this repo](https://github.com/Portfolio-Advanced-software/BingeBuster-WebUI)
 
+The CI/CD for my service is working, it builds a docker image based on the dockerfile in the repo and publishes it to docker hub.
+![image](https://user-images.githubusercontent.com/73555911/232327654-3569dd7f-8b06-487f-a978-0f0951e04a07.png)
+
+
 
 
 
@@ -200,6 +204,9 @@ I did some research to find a cloud service for RabbitMQ for [my POC](https://gi
 I started hosting my mongodb to a cloud provider and therefore creating more experienct with cloud providers. I seperated the databases by database name for my microservices.
 
 ![image](https://user-images.githubusercontent.com/73555911/232322922-8a476285-9136-446e-aebb-e53ac2454795.png)
+
+Finally I use docker hub to automatically publish my docker images to and host them.
+![image](https://user-images.githubusercontent.com/73555911/232327899-851747f7-f189-46dd-91af-541e9fd9496c.png)
 
 
 ### Learning Outcome 8 - Security by Design
