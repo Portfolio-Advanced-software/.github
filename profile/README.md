@@ -108,6 +108,7 @@ Beside that we also did a peer review to assess our skills and contributions to 
 <img width="817" alt="Scherm­afbeelding 2023-04-12 om 10 06 01" src="https://user-images.githubusercontent.com/73555911/231393720-bd92af6e-1fb3-40c6-8534-e5074dd45bda.png">
 
 
+
 1.2: Sprint 1
 We continued with the standups and they became more meaningful when starting on the project. We adjusted the user stories after the planning with our product owner and start working on an real agile way in sprint 1, by creating tasks related to the user stories. The jira board was pretty much up to date during the whole sprint. For my individual i also created a git project board
 
@@ -117,6 +118,7 @@ We continued with the standups and they became more meaningful when starting on 
 
 
 
+![User story](https://user-images.githubusercontent.com/73555911/232322366-857b6e20-9951-4545-b160-c54088642f5b.png)
 
 
 
@@ -130,7 +132,7 @@ Besides functionality, you develop the architecture of enterprise software based
 |---|---|---|---|
 | 1.1 | Sprint 0 | Group project | Orienting |
 | 1.2 | Sprint 1 | Individual project | Orienting |
-| 1.3 | Sprint 2 | Individual project | Orienting |
+| 1.3 | Sprint 2 | Individual project | Beginning |
 
 #### Substantiation
 
@@ -141,14 +143,14 @@ Besides functionality, you develop the architecture of enterprise software based
 For my individual project I created a C1 & C2 model to base my project on. The architecture can be found [here](https://github.com/Portfolio-Advanced-software/.github/blob/main/BingeBuster/Architecture.md). Besides that I spent a lot of time figuring out how to create Dockerfiles and how to run MetaTrader inside a Docker container. I wrote a little tutorial about it that can be found [here](https://github.com/Portfolio-Advanced-software/.github/blob/main/Documentation/Creating%20docker%20container%20running%20MetaTrader%205.md). Finally I created a little POC to test communication between two GO servers using rabbitMQ that can be found [here](https://github.com/Portfolio-Advanced-software/GO-RabbitMQ-POC)
 
 1.3 Sprint 2
-I created the repo's for my project with the minimum for messaging through RabbitMQ, beside that I started with kubernetes in the group project so I can use this for my individual.
-
-
-
+I created all the necessary repo's for my BingeBuster project with basic implementation for messaging with RabbitMQ. Beside that I started with kubernetes in the group project so I can use this for my individual. You can see the minikube (local kubernetes) dashboard where I created a config that keep 3 instances running at all times.
 
 https://user-images.githubusercontent.com/73555911/231696399-f423322d-51aa-4010-b949-ff2b0f4e2d75.mp4
 
+To allow scaling in the future I chose to go with gRPC instead of REST because of it's speed and convertibility. This protocol works binary and therefore is compatible with everything and therefore is faster when bigger or more files are sent through it, which makes it great for scaling. At last it has built in load balancing features which I want to look into. I created a basic gRPC server POC, the repo can be found [here](https://github.com/Portfolio-Advanced-software/Golang-gRPC-POC)
 
+
+https://user-images.githubusercontent.com/73555911/232235678-c332b568-3617-40ca-92ba-3ab2569824f0.mp4
 
 
 ### Learning Outcome 6 - Development and Operations (DevOps)
@@ -182,6 +184,7 @@ You can explain what a cloud platform provider is and can deploy (parts of) your
 |---|---|---|---|
 | 1.1 | Sprint 0 | Group project | Undefined |
 | 1.2 | Sprint 1 | Individual project | Undefined |
+| 1.3 | Sprint 2 | Individual project | Orienting |
 
 #### Substantiation
 
@@ -191,6 +194,12 @@ You can explain what a cloud platform provider is and can deploy (parts of) your
 1.2: Sprint 1
 I did some research to find a cloud service for RabbitMQ for [my POC](https://github.com/Portfolio-Advanced-software/GO-RabbitMQ-POC). This would also come in handy for our group project because we can all use the same one and that'll make it easier for development and testing.
 
+![image](https://user-images.githubusercontent.com/73555911/232322941-1abc6e1f-a341-4a2a-8907-aad9c3a5082e.png)
+
+1.3: Sprint 2
+I started hosting my mongodb to a cloud provider and therefore creating more experienct with cloud providers. I seperated the databases by database name for my microservices.
+
+![image](https://user-images.githubusercontent.com/73555911/232322922-8a476285-9136-446e-aebb-e53ac2454795.png)
 
 
 ### Learning Outcome 8 - Security by Design
@@ -219,6 +228,7 @@ You are aware of specific data requirements for enterprise systems. You apply be
 |---|---|---|---|
 | 1.1 | Sprint 0 | Group project | Undefined |
 | 1.2 | Sprint 1 | Individual project | Undefined |
+| 1.3 | Sprint 1 | Individual project | Orienting |
 
 #### Substantiation
 
@@ -227,7 +237,10 @@ You are aware of specific data requirements for enterprise systems. You apply be
 
 1.2: Sprint 1
 
+1.3: Sprint 2
+I created an api in Golang with gRPC with its own database (mongodb) this repo can be found [here](https://github.com/Portfolio-Advanced-software/gRPC-API-Golang).
 
+https://user-images.githubusercontent.com/73555911/232321955-ddfa006d-04c0-4e30-b78c-407b2798ff43.mp4
 
 
 
