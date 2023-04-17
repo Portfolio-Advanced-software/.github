@@ -27,6 +27,7 @@ You develop and deploy enterprise software, both individually and as a team, tha
 |---|---|---|---|
 | 1.1 | Sprint 0 | Group project | Orienting |
 | 1.2 | Sprint 1 | Individual project | Orienting |
+| 1.3 | Sprint 2 | Individual project | Beginning |
 
 #### Substantiation
 
