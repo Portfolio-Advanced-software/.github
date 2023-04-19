@@ -1,5 +1,5 @@
 # Personal development
-This document will describe my intentions for my further development as a software engineer. As I am approaching the last year of my study I'm getting a clearer picture of what I want and don't want. 
+This document will describe my intentions for my further development as a software engineer. As I am approaching the last year of my study I'm getting a clearer picture of what I want and don't want. I want to go in the direction of a full-stack developer, but am certain that I don't want to be doing that for the bigger part of my life. This means I want to switch different job positions over time and don't stay to long in one place. I will be telling about me steps to finish my study and what I want my future to look like.
 
 
 ## Minor
@@ -24,5 +24,15 @@ I'm nominated for doing my minor at Halmstad University in Sweden. I already app
 
 
 ## Graduation
+My first internship I did a business like project and while I liked doing it, it didn't involve a lot of software engineering. Therefore I want an internship where I can do things like full-stack web/app development. My preference would be at a company that is involved with an industry that I like, for example music, gaming or health care. I also prefer good connection between the company and me. I already started looking at internships on platforms like LinkedIn to be sure I have enough time at picking the best one for me. 
 
-## Job
+
+
+## Future path
+After my study I'm not really sure what I want to do, I have narrowed it down to three choices: working, continue studying or doing volenteer work abroad. My plan is to decide at the time and maybe combine one or two with another. I will shortly explain my plan for the three topics and what I envision.
+
+### Work
+
+### Study
+
+### 
