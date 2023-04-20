@@ -19,7 +19,7 @@ To come up with as many valid protocols, techniques, etc. I consulted the intern
 
 
 #### Community/forum
-
+[ Azure Service Bus, Azure Event Grid  ](https://www.reddit.com/r/microservices/comments/hl9rww/microservices_servicetoservice_communication/)
 
 
 
