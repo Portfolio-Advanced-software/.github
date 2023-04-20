@@ -38,7 +38,7 @@ The first sprint I developed a feeling for what enterprise software means and st
 I created simple non functional requirements that are linked to enterprise software and applicable to my individual project. [Non-functional requirements](https://github.com/Portfolio-Advanced-software/.github/blob/main/BingeBuster/Non-functional%20requirements%20BingeBuster.md)
 
 1.3: Sprint 2
-We started a document in our group to justify the technology we are using. Beside that I'm getting familiar with certain terms that are used in an enterprise environment and why they're useful for certain scenarios (gRPC, Docker, Kubernetes, etc.)
+We started a [document](https://github.com/S-A-RB05/.github/blob/main/profile/Technology%20justification.md) in our group to justify the technology we are using. Beside that I'm getting familiar with certain terms that are used in an enterprise environment and why they're useful for certain scenarios (gRPC, Docker, Kubernetes, etc.)
 
 
 
