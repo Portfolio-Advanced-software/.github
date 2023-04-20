@@ -73,13 +73,15 @@ You acquire skills required for your future career. You are aware of multiple ca
 | Id | Description | Type | Level |
 |---|---|---|---|
 | 1.1 | Sprint 1 | Individual project | Orienting |
+| 1.2 | Sprint 2 | Individual project | Proficient |
 
 #### Substantiation
 
 1.1: Sprint 1
 I'm already busy to prepare myself for a minor abroad so I'm busy with developing myself and my career. I will write more in [this document](https://github.com/Portfolio-Advanced-software/.github/blob/main/Personal%20development.md) to support this learning outcome.
 
-
+1.2: Sprint 2
+Recently I've been reflecting more and more on my career path and where I finally want to work to. This helped finish the personal development document. Because I'm planning of going abroad in a few months I started broadening my view to the future and discovering new paths. You can read about it in [this document](https://github.com/Portfolio-Advanced-software/.github/blob/main/Personal%20development.md).
 
 
 
@@ -122,7 +124,6 @@ We continued with the standups and they became more meaningful when starting on 
 
 
 ![User story](https://user-images.githubusercontent.com/73555911/232322366-857b6e20-9951-4545-b160-c54088642f5b.png)
-
 
 
 
