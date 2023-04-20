@@ -39,7 +39,12 @@ I came across this assigment and because of the title "Full-stack developer" I b
 After my study I'm not really sure what I want to do, I have narrowed it down to three choices: working, continue studying or doing volenteer work abroad. My plan is to decide at the time and maybe combine one or two with another. I will shortly explain my plan for the three topics and what I envision.
 
 ### Work
-After my graduation internship it will depend if I liked the company and if they have job opportunities. Then I most likely would stick there and start working. I'm really looking forward to working in the sector that I've studied for for the last years. For now I don't want to start on my definite job, but I would like to get some job experience and become a better software developer.
+After my graduation internship it will depend if I liked the company and if they have job opportunities. Then I most likely would stick there and start working. I'm really looking forward to working in the sector that I've studied for for the last years. For now I don't want to start on my definite job, but I would like to get some job experience and become a better software developer. If I had to choose a job in the moment right now I would choose something around full stack developer. I browsed different vacancies and came across an interesting one:
+
+#### [Software Developer voor Zorg-Lokaal](https://www.limburgvac.nl/vacatures/it-vacatures/automatisering/software-developer-zorg-lokaal-sittard-91174.html?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic)
+
+![image](https://user-images.githubusercontent.com/73555911/233363670-c825b58c-7339-42d4-9f72-75dd68df71da.png)
+
 
 ### Study
 I already looked at master studies in the field but there aren't that many so I will have to take a closer look what the study traject looks like and if I see myself doing it. I'm also interested in studying in a different field, but then not for a full-time study (4 years), so maybe I will do a short course or one next to my job. 
