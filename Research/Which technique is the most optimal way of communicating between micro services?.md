@@ -71,7 +71,15 @@ source: http://www.myspsolution.com/news-events/rest-vs-messaging-for-microservi
 
 source: http://www.myspsolution.com/news-events/rest-vs-messaging-for-microservices-which-one-is-best/
 
+### Messaging
+#### Advantages
+- With messaging you can use a publish subscribe system where the service just subscribes to a channel and will get notified when the publisher sends out a new message. so you're not waiting anymore for a response and this can be asynchronous. This means that you can easily scale services because they're not waiting for a response on each other.
+- This also means that a services only has to subscribe to a channel and this doesn't involve doing a lot of technical stuff in the back-end. This makes it easier for expansion.
+- Because messaging allows for data queues and guarenteed message deliveried the data is not lost when a services fails after transmitting the message. Therefore a service can come back online and continue as before.
 
+source: http://www.myspsolution.com/news-events/rest-vs-messaging-for-microservices-which-one-is-best/
+
+#### Disadvantages
 
 ## What is the role of message brokers?
 ## What is the role of API gateways in micro service communication?
