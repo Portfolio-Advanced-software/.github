@@ -64,12 +64,68 @@ If I translate them down to the same category I get the following list that I wi
 
 source: http://www.myspsolution.com/news-events/rest-vs-messaging-for-microservices-which-one-is-best/
 
+
+```
+1. Easy to integrate
+A decent RESTful API may be found from the very first URI. This isn’t to say that each application that uses your service will know what to do automatically. It does, however, make things easier for the developer who is attempting to connect your API.
+
+
+4. Independence
+Because of the separation between client and server, the REST protocol allows for autonomous development across several sections of a project. Furthermore, the REST API is adaptable to operational syntax and platform. This allows testing in a variety of contexts throughout development.
+
+5. Uniform Interface
+When creating a REST API, developers agree to follow the same standards. Hence, the output is a consistent interface across all APIs. This interface functions as a contract between the client and the service, and it is shared by all REST APIs. How is this useful? When developers utilize APIs, they require global ideas to ensure that they can communicate with one another.
+
+6. Layered System
+Every REST-enabled component has no access to components other than the one with whom it is communicating. This means, that a client who connects to an intermediary component does not know with whom that component will engage later. This encourages developers to design separate components that are easy to upgrade.
+```
+
+source: https://qodeify.com/advantages-of-restful-api/
+
 #### Disadvantages
 - Because it is request response it is only linked to one service most of the time so with expansion you need to exclusively link it to a new service. 
 - Like discussed earlier you send out a request and wait for a response, so this can become a problem when there are a lot of requests and every request has to wait for the request in front of them to get a response.
 - ```Error Handling - HTTP was built for the web and we have all seen our browsers get stuck trying to access a webpage. Usually we click the refresh button and the page displays. But what if it fails again? Try to refresh again? Does one start to implement a human form of exponential back off by getting a cup of coffee and trying again in a few minutes? We do not know what to do as every webpage is different and has unique behavior. The same type of issue occurs when directly invoking a RESTful service. Should this complex retry logic reside in a service's code? If it does the service is even more tightly coupled to other services - again violating the key principle of keeping microservices architecture single in purpose and small in size.```
 
 source: http://www.myspsolution.com/news-events/rest-vs-messaging-for-microservices-which-one-is-best/
+
+
+```
+1. Increased design complexity.
+Although they are easier to use, the design of a REST API can be more complex than other APIs, especially if you are not familiar with web architecture. 
+
+The REST API uses architectural principles that you need to be familiar with in order to develop your API.
+
+2. Web connection
+All changes to your REST API must be executed on the web and only on the web. It’s impossible to edit the API from your desktop without an internet connection, unlike HTML web files, for example. You must always connect to make the slightest change.
+
+A REST API requires an Internet connection to function, which means it may be less useful in offline environments.
+
+3. Variable performance and flexibility
+On the other hand, REST APIs can have slightly lower performance than other APIs, depending on the servers and their internet speed.
+
+And in some cases, a REST API may be less flexible than other APIs because of the same architectural principles it must follow. 
+
+In other words, although its architecture is quite versatile and can be synchronized with other applications, the development of this architecture is less flexible.
+
+Despite its unfavorable points, REST APIs are a must-have for web developers and companies worldwide. 
+
+This is the API of choice for millions of companies and development teams, so knowing it will give you access to countless opportunities. 
+
+At the same time, we recommend you to complement your repertoire of tools with other API models, as well as programming languages. 
+
+You can start with HTML and JavaScript and their different formats, such as Node.JS JSON, and if you want to go a step further, you can delve into Python and more complex languages such as C and C++.
+
+Also, if you want to become a web development specialist, we invite you to check out our training and boot camps.
+
+
+```
+
+source: https://www.thepowermba.com/en/blog/rest-api-what-is-it-how-does-it-work-advantages-and-disadvantages
+### RPC
+
+
+
 
 ### Messaging
 #### Advantages
@@ -81,10 +137,20 @@ source: http://www.myspsolution.com/news-events/rest-vs-messaging-for-microservi
 
 #### Disadvantages
 
-## What is the role of message brokers?
-## What is the role of API gateways in micro service communication?
-## How does service discovery work to ensure communication between unknown micro services?
-## What is the impact of containerization on micro service communication?
-## How does the choice of communication protocol impact the performance and scalability of microservices?
-## How can micro service communication be secured to prevent unauthorized access?
-## What are the best practices for testing and monitoring microservice communication to ensure reliability and performance?
+
+
+### Event driven
+
+### Streaming
+
+### Binary
+
+
+
+## What kind of things does the way of communication have impact on as well?
+The previous question answered some of the 
+
+
+
+## How can we monitor these things and test it?
+
