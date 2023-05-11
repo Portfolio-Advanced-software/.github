@@ -84,3 +84,30 @@ Combining the two methods of researching I used I get the following list that wi
 - Binary
 - GraphQL
 
+<br>
+
+## What are the relevant criteria for selecting a communication method?
+The criteria that are relevant are specific per scenario, therefore the research will be splits in two per scenario from now on.
+
+### DOT-methods
+- Explore user requirements
+- Problem analysis
+- Stakeholder analysis
+- Survey
+
+
+### BingeBuster
+
+#### Explore user requirements
+#### Stakeholder analysis
+#### Survey
+
+<br>
+
+
+### Stockbrood
+
+#### Explore user requirements
+#### Problem analysis
+#### Stakeholder analysis
+#### Survey
