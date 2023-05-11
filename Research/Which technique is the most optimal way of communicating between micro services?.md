@@ -8,17 +8,19 @@ To answer the question I'm going to research multiple sub questions to get to a 
 ![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/c2bd61a1-8dc0-4947-9032-0d73f3f52157)
 
 
-
+<br>
 
 ## Which techniques for micro service communication are available?
-I’m already familiar with some techniques, but to broaden my knowledge and create a good base for the research. I did research to different ways of communicating and selected the most popular one and therefore kept it limited. There are also alternative ways, but they’re not included in this research.
-I read some articles describing approaches to communicate and which protocols they used to achieve this. I will be naming the articles and what techniques I came across while reading them.
-
 ### DOT-methods
 - Literature study
 - Community research
 
+<br>
+
 ### Literature study
+I’m already familiar with some techniques, but to broaden my knowledge and create a good base for the research I did research about different ways of communicating and selected the most popular one and therefore want to keep it limited. There are also alternative ways, but they’re not included in this research.
+I read some articles describing approaches to communicate and which protocols they used to achieve this. I will be naming the articles and what techniques I came across while reading them.
+
 #### [3 methods for microservice communication](https://blog.logrocket.com/methods-for-microservice-communication/)
 - HTTP
 - Message communication
@@ -42,8 +44,6 @@ I read some articles describing approaches to communicate and which protocols th
 - Binary protocol (like TCP)   
 
 
-
-
 #### [Reddit](https://www.reddit.com/r/microservices/comments/hl9rww/microservices_servicetoservice_communication/)
 Forums are also a good point to retrieve information, the chance that this question is already been discussed is high. Therefore I started looking for forums and came across some interesting new ways.
 - Azure Service Bus
@@ -60,15 +60,19 @@ I noticed reading the articles that some articles where describing the used prot
 - Streaming
 - Binary 
 
+<br>
 
 ### Community research
 To test my list for completeness I asked around on Reddit if there were any other popular ones. The best addition was this comment:  
 
-![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/4d71d7de-35a4-4b16-b89a-eab26fc3c81b)
+![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/4d71d7de-35a4-4b16-b89a-eab26fc3c81b)   
+[The post](https://www.reddit.com/r/microservices/comments/13coix7/popular_ways_of_communicating_between/)
+
 
 I meaningly left out SOAP, because from former experience I know that is slightly outdated, so I added one addition to the list being:
 - GraphQL
 
+<br>
 
 ### Conclusion
 Combining the two methods of researching I used I get the following list that will be the starting point of this research:
