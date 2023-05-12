@@ -188,3 +188,10 @@ Because it's a fictional project the costs doesn't really matter, but in a real 
 I created a survey where other developers could give their opinions and see what they find important.
 
 ![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/e99a4632-4455-40a6-9b96-6892805d507c)
+
+
+<br>
+
+
+## How does each type of communication test to the researched criteria?
+
