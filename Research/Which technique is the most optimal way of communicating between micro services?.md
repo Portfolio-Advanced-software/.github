@@ -117,29 +117,37 @@ BingeBuster is a project I'm creating individually as a tool to prove my knowled
 #### Explore user requirements
 I will developing this product for my own use so I created user stories based on my own preferences. These stories can be found [here](https://github.com/Portfolio-Advanced-software/.github/blob/main/BingeBuster/User%20stories%20BingeBuster.md). Based on the user stories and my requirements I added the importances of each criteria for this project by using points (more points means more important):
 
-##### Scalability (2 points) 
+##### Scalability (3 points) 
 This platform will be build around the design of scalability meaning it's very important that the type of communication is also scalable and will not be a bottleneck in this application.
 
-##### Performance ()
+##### Performance (1 point)
+The performance of messaging isn't that important, the performance of the streaming service is. 
 
-##### Reliability ()
+##### Reliability (2 points)
+Because the speed of messaging isn't important, the reliability is because users will depend on it and when the messaging doesn't work users can't stream content.
 
 ##### Maintainability (1 point)
+It's important for it to be implemented easily to speed up the development time, but once it is implemented it doesn't need to be maintained a lot. 
 
 ##### Security (1 point)
 While security is always important it won't be as important, because the messaging that will occur is mostly with non sensitive information.
 
-##### Flexibility ()
+##### Flexibility (1 point)
+I won't be using a lot of different types of services written in different languages so the flexibility isn't that important to me.
 
 ##### Costs (2 points)
 I have to implement this on my own therefore the costs will be important. I don't have any budget.
 
+<br>
 
-
-#### Stakeholder analysis
 #### Survey
+I created a survey where other developers could give their opinions and see what they find important.
+
+![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/3f17ca25-4b0c-4eea-a7a6-e020e683d6ff)
+
 
 <br>
+
 
 
 ### Stockbrood
@@ -148,11 +156,10 @@ Stockbrood is our organization name for our group project that will be a part of
 #### Explore user requirements
 As a group we created user stories in consultation with our PO, they can be found [here](https://github.com/S-A-RB05/.github/blob/main/User%20stories.pdf). Based on the stories and the multiple meetings we had with our PO about important factors in the platform. I weighted the criteria as following:
 
-
 ##### Scalability (2 points) 
 This platform will be build 
 
-##### Performance ()
+##### Performance (2 points)
 
 ##### Reliability ()
 ##### Maintainability (1 point)
@@ -163,5 +170,10 @@ This platform will be build
 
 
 #### Problem analysis
-#### Stakeholder analysis
+While discussing the case and project with our PO we came to the conclusion that there was a problem. The problem is that manually testing takes a lot of time and therefore you can not keep up to date with the strategies and the current market. After 
+
+
 #### Survey
+I created a survey where other developers could give their opinions and see what they find important.
+
+![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/e99a4632-4455-40a6-9b96-6892805d507c)
