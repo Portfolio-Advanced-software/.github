@@ -116,16 +116,16 @@ BingeBuster is a project I'm creating individually as a tool to prove my knowled
 #### Explore user requirements
 I will developing this product for my own use so I created user stories based on my own preferences. These stories can be found [here](https://github.com/Portfolio-Advanced-software/.github/blob/main/BingeBuster/User%20stories%20BingeBuster.md). Based on the user stories and my requirements I added the importances of each criteria for this project by using points (more points means more important):
 
-##### Scalability (3 points) 
+##### Scalability (4 points) 
 This platform will be build around the design of scalability meaning it's very important that the type of communication is also scalable and will not be a bottleneck in this application.
 
-##### Performance (1 point)
+##### Performance (2 point)
 The performance of communication isn't that important, the performance of the streaming service is. 
 
-##### Reliability (2 points)
+##### Reliability (3 points)
 Because the speed of communication isn't important, the reliability is because users will depend on it and when the communication doesn't work users can't stream content.
 
-##### Maintainability (1 point)
+##### Maintainability (2 point)
 It's important for it to be implemented easily to speed up the development time, but once it is implemented it doesn't need to be maintained a lot. 
 
 ##### Security (1 point)
@@ -159,25 +159,27 @@ While discussing the case and project with our PO we came to the conclusion that
 #### Explore user requirements
 As a group we created user stories in consultation with our PO, they can be found [here](https://github.com/S-A-RB05/.github/blob/main/User%20stories.pdf). Based on the stories and the multiple meetings we had with our PO about important factors in the platform. I weighted the criteria as following:
 
-##### Scalability (4 points) 
+##### Scalability (5 points) 
 This platform will be build to run a lot of (options on) trading strategies therefore being able to scale is the most important thing.
 
-##### Performance (2 points)
-A lot of different strategies' options will be tested by a lot of users so there will be a lot of communicating between 
+##### Performance (4 points)
+A lot of different strategies' options will be tested by a lot of users so there will be a lot of communicating between services therefore it could be a bottleneck in the system's speed and therefore it is an important criteria.
 
-##### Reliability (2 points)
-
+##### Reliability (3 points)
+It should be reliable because there is a lot of scaling involved and therefore is a service is lost or doesn't scale correctly the communication should continue to work with the new services.
 
 ##### Maintainability (2 point)
+It is nice to have a maintainable solution and it is to a certain level even needed, but the maintainability is in this use case not the most important criteria.
 
-
-##### Security (1 point)
+##### Security (2 point)
 While security is always important it won't be as important, because the communication that will occur is mostly with non sensitive information.
 
-##### Flexibility (2 points)
+##### Flexibility (3 points)
 This platform has a lot of potential to expand this means that other systems might come or go and therefore it needs to integrate with each other in the future.
 
-##### Costs ()
+##### Costs (1 point)
+Because it's a fictional project the costs doesn't really matter, but in a real situation should still be noticed. 
+
 
 <br>
 
