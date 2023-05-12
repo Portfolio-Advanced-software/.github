@@ -109,7 +109,7 @@ Before I begin to decide which criteria are relevant to each use case I want to 
 - Flexibility (How will it work with different systems?)
 - Costs (How much does it cost to implement?)
 
-
+<br>
 
 ### BingeBuster
 BingeBuster is a project I'm creating individually as a tool to prove my knowledge this semester. More information can be found [here](https://github.com/Portfolio-Advanced-software/BingeBuster-WebUI)
