@@ -238,8 +238,14 @@ I created a basic application to test the criteria on, this prototype can be fou
 
 
 ### RPC
-### Messaging
-### Event driven communication
+
+
+
+### Messaging/Event driven communication
+While doing research about implementing a prototype I concluded that it is an architectural approach but they both use a broker to send and receive data. The prototype I created can be found [here](https://github.com/Portfolio-Advanced-software/micro-service-communication-prototype/tree/main/RabbitMQ).
+
 ### Streaming
+
+
 ### Binary
 ### GraphQL
