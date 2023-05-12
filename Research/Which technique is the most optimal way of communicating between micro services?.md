@@ -142,7 +142,12 @@ I have to implement this on my own therefore the costs will be important. I don'
 #### Survey
 I created a survey where other developers could give their opinions and see what they find important.
 
-![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/3f17ca25-4b0c-4eea-a7a6-e020e683d6ff)
+<table>
+  <tr>
+    <td><img src="https://github.com/Portfolio-Advanced-software/.github/assets/73555911/3f17ca25-4b0c-4eea-a7a6-e020e683d6ff" width=500 height=800></td>
+    <td><img src="https://github.com/Portfolio-Advanced-software/.github/assets/73555911/d7b54375-d014-44bb-9f82-1de25d7f710f" width=500 height=800></td>
+  </tr>
+</table>
 
 
 <br>
@@ -187,11 +192,26 @@ Because it's a fictional project the costs doesn't really matter, but in a real 
 #### Survey
 I created a survey where other developers could give their opinions and see what they find important.
 
-![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/e99a4632-4455-40a6-9b96-6892805d507c)
-
+![image]
+<table>
+  <tr>
+    <td><img src="https://github.com/Portfolio-Advanced-software/.github/assets/73555911/e99a4632-4455-40a6-9b96-6892805d507c" width=500 height=800></td>
+    <td><img src="https://github.com/Portfolio-Advanced-software/.github/assets/73555911/ace2943d-76ef-4514-8a54-8c2128e6eacc" width=500 height=800></td>
+  </tr>
+</table>
 
 <br>
 
 
 ## How does each type of communication test to the researched criteria?
 
+### REST
+
+
+
+### RPC
+### Messaging
+### Event driven communication
+### Streaming
+### Binary
+### GraphQL
