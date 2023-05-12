@@ -90,15 +90,37 @@ Combining the two methods of researching I used I get the following list that wi
 The criteria that are relevant are specific per scenario, therefore the research will be splits in two per scenario from now on.
 
 ### DOT-methods
+- Brainstorm
 - Explore user requirements
 - Problem analysis
 - Stakeholder analysis
 - Survey
 
+<br>
+
+### Brainstorm
+Before I begin to decide which criteria are relevant to each use case I want to make a selection of criteria that I will pick from. I started brainstorming and writing a lot of criteria I could test and after combining some I came up with a list of 7 criteria that I will be using to answer this research question.
+
+- Scalability (How will it handle horizontal scaling?) 
+- Performance (How fast will it perform?)
+- Reliability (How will it handle errors and how is it's fault tolerance?)
+- Maintainability (Is it easy to implement and keep working?)
+- Security (What security measures can be taken and how safe are they?)
+- Flexibility (How will it work with different systems?)
+- Costs (How much does it cost to implement?)
+
+
 
 ### BingeBuster
+BingeBuster is a project I'm creating individually as a tool to prove my knowledge this semester. More information can be found [here](https://github.com/Portfolio-Advanced-software/BingeBuster-WebUI)
 
 #### Explore user requirements
+I will developing this product for my own use so I created user stories based on my own preferences. These stories can be found [here](https://github.com/Portfolio-Advanced-software/.github/blob/main/BingeBuster/User%20stories%20BingeBuster.md). Based on the user stories and my requirements I selected the following criteria:
+
+
+
+
+
 #### Stakeholder analysis
 #### Survey
 
@@ -106,8 +128,15 @@ The criteria that are relevant are specific per scenario, therefore the research
 
 
 ### Stockbrood
+Stockbrood is our organization name for our group project that will be a part of our semester. The project will be build for a product owner (PO) who wants a platform for (stock) traders to test their trading strategies on, more can be found [here](https://github.com/S-A-RB05).
 
 #### Explore user requirements
+As a group we created user stories in consultation with our PO, they can be found [here](https://github.com/S-A-RB05/.github/blob/main/User%20stories.pdf). Based on the stories and the multiple meetings we had with our PO about important factors in the platform. I selected the following criteria of importance:
+
+
+
+
+
 #### Problem analysis
 #### Stakeholder analysis
 #### Survey
