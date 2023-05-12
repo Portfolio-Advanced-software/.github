@@ -93,7 +93,6 @@ The criteria that are relevant are specific per scenario, therefore the research
 - Brainstorm
 - Explore user requirements
 - Problem analysis
-- Stakeholder analysis
 - Survey
 
 <br>
@@ -121,16 +120,16 @@ I will developing this product for my own use so I created user stories based on
 This platform will be build around the design of scalability meaning it's very important that the type of communication is also scalable and will not be a bottleneck in this application.
 
 ##### Performance (1 point)
-The performance of messaging isn't that important, the performance of the streaming service is. 
+The performance of communication isn't that important, the performance of the streaming service is. 
 
 ##### Reliability (2 points)
-Because the speed of messaging isn't important, the reliability is because users will depend on it and when the messaging doesn't work users can't stream content.
+Because the speed of communication isn't important, the reliability is because users will depend on it and when the communication doesn't work users can't stream content.
 
 ##### Maintainability (1 point)
 It's important for it to be implemented easily to speed up the development time, but once it is implemented it doesn't need to be maintained a lot. 
 
 ##### Security (1 point)
-While security is always important it won't be as important, because the messaging that will occur is mostly with non sensitive information.
+While security is always important it won't be as important, because the communication that will occur is mostly with non sensitive information.
 
 ##### Flexibility (1 point)
 I won't be using a lot of different types of services written in different languages so the flexibility isn't that important to me.
@@ -153,24 +152,34 @@ I created a survey where other developers could give their opinions and see what
 ### Stockbrood
 Stockbrood is our organization name for our group project that will be a part of our semester. The project will be build for a product owner (PO) who wants a platform for (stock) traders to test their trading strategies on, more can be found [here](https://github.com/S-A-RB05).
 
+
+#### Problem analysis
+While discussing the case and project with our PO we came to the conclusion that there was a problem. The problem is that manually testing takes a lot of time and therefore you can not keep up to date with the strategies and the current market. After doing more investigation about the problem our PO was facing we came to the conclusion that there is to much manual labor required to efficiently make use of completely testing a trading strategy. This makes the criterias scalability and performance important ones.
+
 #### Explore user requirements
 As a group we created user stories in consultation with our PO, they can be found [here](https://github.com/S-A-RB05/.github/blob/main/User%20stories.pdf). Based on the stories and the multiple meetings we had with our PO about important factors in the platform. I weighted the criteria as following:
 
-##### Scalability (2 points) 
-This platform will be build 
+##### Scalability (4 points) 
+This platform will be build to run a lot of (options on) trading strategies therefore being able to scale is the most important thing.
 
 ##### Performance (2 points)
+A lot of different strategies' options will be tested by a lot of users so there will be a lot of communicating between 
 
-##### Reliability ()
-##### Maintainability (1 point)
+##### Reliability (2 points)
+
+
+##### Maintainability (2 point)
+
 
 ##### Security (1 point)
-##### Flexibility ()
+While security is always important it won't be as important, because the communication that will occur is mostly with non sensitive information.
+
+##### Flexibility (2 points)
+This platform has a lot of potential to expand this means that other systems might come or go and therefore it needs to integrate with each other in the future.
+
 ##### Costs ()
 
-
-#### Problem analysis
-While discussing the case and project with our PO we came to the conclusion that there was a problem. The problem is that manually testing takes a lot of time and therefore you can not keep up to date with the strategies and the current market. After 
+<br>
 
 
 #### Survey
