@@ -140,7 +140,16 @@ I have to implement this on my own therefore the costs will be important. I don'
 <br>
 
 #### Survey
-I created a survey where other developers could give their opinions and see what they find important.
+I created a survey where other developers could give their opinions and see what they find important. I created an average weight per criterium. The final result is:
+
+- Scalability (4,6 points) 
+- Performance (4,2 points)
+- Reliability (4,2 points)
+- Maintainability (3 points)
+- Security (3 points)
+- Flexibility (2,8 points)
+- Costs (3,4 points)
+
 
 <table>
   <tr>
@@ -190,9 +199,17 @@ Because it's a fictional project the costs doesn't really matter, but in a real 
 
 
 #### Survey
-I created a survey where other developers could give their opinions and see what they find important.
+I created a survey where other developers could give their opinions and see what they find important. I created an average weight per criterium. The final result is:
 
-![image]
+- Scalability (4,6 points) 
+- Performance (4,6 points)
+- Reliability (4,2 points)
+- Maintainability (3 points)
+- Security (3,6 points)
+- Flexibility (3,2 points)
+- Costs (3,2 points)
+
+
 <table>
   <tr>
     <td><img src="https://github.com/Portfolio-Advanced-software/.github/assets/73555911/e99a4632-4455-40a6-9b96-6892805d507c" width=500 height=800></td>
@@ -202,11 +219,22 @@ I created a survey where other developers could give their opinions and see what
 
 <br>
 
+### Conclusion
+When looking over the results to create a top 3 I can conclude that for both projects it's the same 3 criteria that are the most important to test. So I will continue my research looking for the most optimal way of communicating based on these 3 criteria:
+
+- Scalability
+- Performance
+- Reliability
+
 
 ## How does each type of communication test to the researched criteria?
 
 ### REST
+I created a basic application to test the criteria on, this prototype can be found [here](https://github.com/Portfolio-Advanced-software/micro-service-communication-prototype/tree/main/REST).
 
+#### Scalability
+#### Performance
+#### Reliability
 
 
 ### RPC
