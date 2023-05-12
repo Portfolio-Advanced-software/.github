@@ -238,14 +238,38 @@ I created a basic application to test the criteria on, this prototype can be fou
 
 
 ### RPC
+I created a gRPC prototype already so I will be testing it on [that one](https://github.com/Portfolio-Advanced-software/Golang-gRPC-POC)
 
-
+#### Scalability
+#### Performance
+#### Reliability
 
 ### Messaging/Event driven communication
 While doing research about implementing a prototype I concluded that it is an architectural approach but they both use a broker to send and receive data. The prototype I created can be found [here](https://github.com/Portfolio-Advanced-software/micro-service-communication-prototype/tree/main/RabbitMQ).
 
+#### Scalability
+#### Performance
+#### Reliability
+
 ### Streaming
+The article mentioned that streaming is possible with gRPC or a streaming broker like Kafka. So I will be using the [gRPC prototype](https://github.com/Portfolio-Advanced-software/Golang-gRPC-POC) and the [Kafka one]()
+
+#### Scalability
+#### Performance
+#### Reliability
 
 
 ### Binary
+
+
+#### Scalability
+#### Performance
+#### Reliability
+
+
 ### GraphQL
+
+
+#### Scalability
+#### Performance
+#### Reliability
