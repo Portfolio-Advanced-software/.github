@@ -99,12 +99,12 @@ The criteria that are relevant are specific per scenario, therefore the research
 <br>
 
 ### Brainstorm
-Before I begin to decide which criteria are relevant to each use case I want to make a selection of criteria that I will pick from. I started brainstorming and writing a lot of criteria I could test and after combining some I came up with a list of 7 criteria that I will be using to answer this research question.
+Before I begin to decide the importance of certain criteria in a project I have to decide which ones are relevant to use, so I have to make a selection. I started brainstorming and writing a lot of criteria I could test and after combining some I came up with a list of 7 criteria that I will be using to answer this research question.
 
 - Scalability (How will it handle horizontal scaling?) 
 - Performance (How fast will it perform?)
 - Reliability (How will it handle errors and how is it's fault tolerance?)
-- Maintainability (Is it easy to implement and keep working?)
+- Maintainability (Is it easy to implement and keep it working?)
 - Security (What security measures can be taken and how safe are they?)
 - Flexibility (How will it work with different systems?)
 - Costs (How much does it cost to implement?)
@@ -115,9 +115,24 @@ Before I begin to decide which criteria are relevant to each use case I want to 
 BingeBuster is a project I'm creating individually as a tool to prove my knowledge this semester. More information can be found [here](https://github.com/Portfolio-Advanced-software/BingeBuster-WebUI)
 
 #### Explore user requirements
-I will developing this product for my own use so I created user stories based on my own preferences. These stories can be found [here](https://github.com/Portfolio-Advanced-software/.github/blob/main/BingeBuster/User%20stories%20BingeBuster.md). Based on the user stories and my requirements I selected the following criteria:
+I will developing this product for my own use so I created user stories based on my own preferences. These stories can be found [here](https://github.com/Portfolio-Advanced-software/.github/blob/main/BingeBuster/User%20stories%20BingeBuster.md). Based on the user stories and my requirements I added the importances of each criteria for this project by using points (more points means more important):
 
+##### Scalability (2 points) 
+This platform will be build around the design of scalability meaning it's very important that the type of communication is also scalable and will not be a bottleneck in this application.
 
+##### Performance ()
+
+##### Reliability ()
+
+##### Maintainability (1 point)
+
+##### Security (1 point)
+While security is always important it won't be as important, because the messaging that will occur is mostly with non sensitive information.
+
+##### Flexibility ()
+
+##### Costs (2 points)
+I have to implement this on my own therefore the costs will be important. I don't have any budget.
 
 
 
@@ -131,10 +146,20 @@ I will developing this product for my own use so I created user stories based on
 Stockbrood is our organization name for our group project that will be a part of our semester. The project will be build for a product owner (PO) who wants a platform for (stock) traders to test their trading strategies on, more can be found [here](https://github.com/S-A-RB05).
 
 #### Explore user requirements
-As a group we created user stories in consultation with our PO, they can be found [here](https://github.com/S-A-RB05/.github/blob/main/User%20stories.pdf). Based on the stories and the multiple meetings we had with our PO about important factors in the platform. I selected the following criteria of importance:
+As a group we created user stories in consultation with our PO, they can be found [here](https://github.com/S-A-RB05/.github/blob/main/User%20stories.pdf). Based on the stories and the multiple meetings we had with our PO about important factors in the platform. I weighted the criteria as following:
 
 
+##### Scalability (2 points) 
+This platform will be build 
 
+##### Performance ()
+
+##### Reliability ()
+##### Maintainability (1 point)
+
+##### Security (1 point)
+##### Flexibility ()
+##### Costs ()
 
 
 #### Problem analysis
