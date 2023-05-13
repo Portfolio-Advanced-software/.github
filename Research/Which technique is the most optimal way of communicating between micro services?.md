@@ -242,13 +242,19 @@ When looking over the results to create a top 3 I can conclude that for both pro
 ### Performance
 I will be testing the performance by looking at response time, throughput and error rate. These three seem the most useful to compare the different types of communication.
 
-I went looking for concrete ways to test my selected criteria on the types of communication. Therefore I started looking at ways to test it on the REST type, so I have a good starting point. Beside that I did a cource on Apache Jmeter because I already read a lot about it and wanted to use it for my personal project. 
-
-[CertificateOfCompletion_JMeter Performance and Load Testing.pdf](https://github.com/Portfolio-Advanced-software/.github/files/11469195/CertificateOfCompletion_JMeter.Performance.and.Load.Testing.pdf)
+I went looking for concrete ways to test my selected criteria on the types of communication. Therefore I started looking at ways to test it on the REST type, so I have a good starting point. [This article](https://medium.com/@yadav.lavisha2212/how-to-do-performance-and-load-testing-on-your-rest-api-in-simple-way-5d934769bc2) perfectly explains how I can test the performance. 
 
 
-[How to do Performance and Load Testing on your REST API in simple way](https://medium.com/@yadav.lavisha2212/how-to-do-performance-and-load-testing-on-your-rest-api-in-simple-way-5d934769bc2)
-This article perfectly explains how I can test the performance. 
+
+
+Beside that I did a cource on Apache Jmeter because I already read a lot about it and wanted to use it for my personal project. 
+
+![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/46503285-ae5e-4d95-871a-6c449ea41371)
+
+
+
+
+
 
 
 
