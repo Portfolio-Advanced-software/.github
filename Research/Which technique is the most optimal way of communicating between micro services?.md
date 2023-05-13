@@ -238,7 +238,7 @@ I created a basic application to test the criteria on, this prototype can be fou
 
 
 ### RPC
-I created a gRPC prototype already so I will be testing it on [that one](https://github.com/Portfolio-Advanced-software/Golang-gRPC-POC)
+I created a gRPC prototype already so I will be testing it on [that one](https://github.com/Portfolio-Advanced-software/Golang-gRPC-POC).
 
 #### Scalability
 #### Performance
@@ -252,7 +252,7 @@ While doing research about implementing a prototype I concluded that it is an ar
 #### Reliability
 
 ### Streaming
-The article mentioned that streaming is possible with gRPC or a streaming broker like Kafka. So I will be using the [gRPC prototype](https://github.com/Portfolio-Advanced-software/Golang-gRPC-POC) and the [Kafka one]()
+The article mentioned that streaming is possible with gRPC or a streaming broker like Kafka. So I will be using the [gRPC prototype](https://github.com/Portfolio-Advanced-software/Golang-gRPC-POC) and the [Kafka one](https://github.com/Portfolio-Advanced-software/micro-service-communication-prototype/tree/main/Kafka).
 
 #### Scalability
 #### Performance
@@ -260,7 +260,7 @@ The article mentioned that streaming is possible with gRPC or a streaming broker
 
 
 ### Binary
-
+I created a prototype using the binary protocol TCP to communicate, it can be found [here](https://github.com/Portfolio-Advanced-software/micro-service-communication-prototype/tree/main/TCP).
 
 #### Scalability
 #### Performance
@@ -268,7 +268,7 @@ The article mentioned that streaming is possible with gRPC or a streaming broker
 
 
 ### GraphQL
-
+At last I created a prototype using GraphQL to query messages, that one can be found [here](https://github.com/Portfolio-Advanced-software/micro-service-communication-prototype/tree/main/GraphQL).
 
 #### Scalability
 #### Performance
