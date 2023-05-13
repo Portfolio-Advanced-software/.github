@@ -227,6 +227,12 @@ When looking over the results to create a top 3 I can conclude that for both pro
 - Reliability
 
 
+
+
+<br>
+
+
+
 ## How does each type of communication test to the researched criteria?
 
 ### REST
@@ -237,6 +243,9 @@ I created a basic application to test the criteria on, this prototype can be fou
 #### Reliability
 
 
+<br>
+
+
 ### RPC
 I created a gRPC prototype already so I will be testing it on [that one](https://github.com/Portfolio-Advanced-software/Golang-gRPC-POC).
 
@@ -244,12 +253,21 @@ I created a gRPC prototype already so I will be testing it on [that one](https:/
 #### Performance
 #### Reliability
 
+
+<br>
+
+
 ### Messaging/Event driven communication
 While doing research about implementing a prototype I concluded that it is an architectural approach but they both use a broker to send and receive data. The prototype I created can be found [here](https://github.com/Portfolio-Advanced-software/micro-service-communication-prototype/tree/main/RabbitMQ).
 
 #### Scalability
 #### Performance
 #### Reliability
+
+
+<br>
+
+
 
 ### Streaming
 The article mentioned that streaming is possible with gRPC or a streaming broker like Kafka. So I will be using the [gRPC prototype](https://github.com/Portfolio-Advanced-software/Golang-gRPC-POC) and the [Kafka one](https://github.com/Portfolio-Advanced-software/micro-service-communication-prototype/tree/main/Kafka).
@@ -259,12 +277,18 @@ The article mentioned that streaming is possible with gRPC or a streaming broker
 #### Reliability
 
 
+<br>
+
+
+
 ### Binary
 I created a prototype using the binary protocol TCP to communicate, it can be found [here](https://github.com/Portfolio-Advanced-software/micro-service-communication-prototype/tree/main/TCP).
 
 #### Scalability
 #### Performance
 #### Reliability
+
+<br>
 
 
 ### GraphQL
