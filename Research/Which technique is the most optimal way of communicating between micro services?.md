@@ -232,28 +232,29 @@ When looking over the results to create a top 3 I can conclude that for both pro
 <br>
 
 ## How can I test different criteria on these types of communication?
+To create a concrete plan how I will test the criteria on prototypes of communication methods, I will be doing further research on how to do this. Per criteria I will be searching articles on a few types of communication to come to a conclusion.
 
 ### DOT-methods
 - Literature study
 
+
 ### Scalability
 
 
+
 ### Performance
-I will be testing the performance by looking at response time, throughput and error rate. These three seem the most useful to compare the different types of communication.
-
-I went looking for concrete ways to test my selected criteria on the types of communication. Therefore I started looking at ways to test it on the REST type, so I have a good starting point. [This article](https://medium.com/@yadav.lavisha2212/how-to-do-performance-and-load-testing-on-your-rest-api-in-simple-way-5d934769bc2) perfectly explains how I can test the performance. 
-
-
-
+[This article](https://medium.com/@yadav.lavisha2212/how-to-do-performance-and-load-testing-on-your-rest-api-in-simple-way-5d934769bc2) explains how to test REST using Jmeter. It talks about retrieving the following results: ```From charts you will get different types of charts according to Over Time, Throughput and Response Times.```
 
 Beside that I did a cource on Apache Jmeter because I already read a lot about it and wanted to use it for my personal project. 
 
 ![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/46503285-ae5e-4d95-871a-6c449ea41371)
 
+I checked if it's also possible to test this on different protocols like RabbitMQ. These articles confirm that testing throughput and response time is also measurable in RabbitMQ:
+- [RabbitMQ throughput test using PerfTest and Autoscaling](https://dev.to/vidyasagarmsc/rabbitmq-throughput-test-using-perftest-and-autoscaling-2b78)
+- [Load testing and performance measurements in RabbitMQ](https://www.cloudamqp.com/blog/load-testing-and-performance-measurements-rabbitmq.html)
 
 
-
+I will be testing the performance by looking at response time and throughput. These two seem the most useful to compare the different types of communication.
 
 
 
@@ -262,7 +263,13 @@ Beside that I did a cource on Apache Jmeter because I already read a lot about i
 
 ### Reliability
 
+
+
+
 <br>
+
+
+
 
 ## How does each type of communication test to the researched criteria?
 
