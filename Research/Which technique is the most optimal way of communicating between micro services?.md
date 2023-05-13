@@ -222,9 +222,14 @@ I created a survey where other developers could give their opinions and see what
 ### Conclusion
 When looking over the results to create a top 3 I can conclude that for both projects it's the same 3 criteria that are the most important to test. So I will continue my research looking for the most optimal way of communicating based on these 3 criteria:
 
-- Scalability
-- Performance
-- Reliability
+#### Scalability
+
+
+#### Performance
+I will be testing the performance by looking at response time, throughput and error rate. These three seem the most useful to compare the different types of communication.
+
+
+#### Reliability
 
 
 
