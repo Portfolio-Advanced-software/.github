@@ -266,7 +266,7 @@ I will be testing the performance by looking at response time and throughput. Th
 
 
 ### Reliability
-
+It is hard to find anything online about testing reliability, unless you have a specific thing you want to test. Luckely I alreadt had an idea in mind. For reliability I will be looking at overloading the system and seeing what happens, this means I will try to overload the system with Jmeter and see if it comes back online. I will analyse this out of the Jmeter reports.
 
 
 
@@ -295,6 +295,8 @@ Other benefits were only about it's performance and not unique characteristics t
 
 
 #### Performance
+
+
 #### Reliability
 
 
