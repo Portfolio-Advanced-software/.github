@@ -276,6 +276,15 @@ It is hard to find anything online about testing reliability, unless you have a 
 
 
 ## How does each type of communication test to the researched criteria?
+I used the baseline settings for the REST performance test as the baseline for the rest.
+
+
+<table>
+  <tr>
+    <td><img src="https://github.com/Portfolio-Advanced-software/.github/assets/73555911/9d5e2e34-4c5b-4d76-a32b-0481db908110" width=500 height=800></td>
+    <td><img src="https://github.com/Portfolio-Advanced-software/.github/assets/73555911/f915b075-f704-4eef-9066-dd51719b55d1" width=500 height=800></td>
+  </tr>
+</table>
 
 ### DOT-methods
 - Literature study
