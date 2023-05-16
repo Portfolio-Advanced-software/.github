@@ -281,8 +281,8 @@ I used the baseline settings for the REST performance test as the baseline for t
 
 <table>
   <tr>
-    <td><img src="https://github.com/Portfolio-Advanced-software/.github/assets/73555911/9d5e2e34-4c5b-4d76-a32b-0481db908110" width=400 height=400></td>
-    <td><img src="https://github.com/Portfolio-Advanced-software/.github/assets/73555911/f915b075-f704-4eef-9066-dd51719b55d1" width=400 height=400></td>
+    <td><img src="https://github.com/Portfolio-Advanced-software/.github/assets/73555911/9d5e2e34-4c5b-4d76-a32b-0481db908110" width=500 height=400></td>
+    <td><img src="https://github.com/Portfolio-Advanced-software/.github/assets/73555911/f915b075-f704-4eef-9066-dd51719b55d1" width=500 height=400></td>
   </tr>
 </table>
 
