@@ -239,6 +239,7 @@ To create a concrete plan how I will test the criteria on prototypes of communic
 
 
 ### Scalability
+REST, gRPC and TCP are not scalable by themself, because they are (using) protocols and therefore rely on the service that implements it. So to test scalability will be mostly depended on there performance as a protocol. RabbitMQ, Kafka and GraphQL are implemented by an intermediate service and therefore that service can also scale like a service. While searching for ways to test scalability on different prototypes, it was more a matter of how well it performed than if it could scale. So the conclusion is that it will be done by searching for benefits and determine it from there.
 
 
 
@@ -253,11 +254,14 @@ I checked if it's also possible to test this on different protocols like RabbitM
 - [RabbitMQ throughput test using PerfTest and Autoscaling](https://dev.to/vidyasagarmsc/rabbitmq-throughput-test-using-perftest-and-autoscaling-2b78)
 - [Load testing and performance measurements in RabbitMQ](https://www.cloudamqp.com/blog/load-testing-and-performance-measurements-rabbitmq.html)
 
+Apache Jmeter also has plugins to test the communication types that are not natively supported:
+- [JMeter gRPC Plugin](https://gitpiper.com/resources/grpc/testing/zalopay-oss-jmeter-grpc-plugin)
+- [Load testing AMQP](https://subscription.packtpub.com/book/application-development/9781783983209/4/ch04lvl1sec19/load-testing-amqp)
+- [Kafka Load Testing with JMeter](https://octoperf.com/blog/2020/10/30/kafka-load-testing/)
+- [GraphQL Performance Testing With Apache JMeter](https://thetesttherapist.com/2022/08/03/graphql-performance-testing-with-apache-jmeter/)
+
 
 I will be testing the performance by looking at response time and throughput. These two seem the most useful to compare the different types of communication.
-
-
-
 
 
 
@@ -273,10 +277,23 @@ I will be testing the performance by looking at response time and throughput. Th
 
 ## How does each type of communication test to the researched criteria?
 
+### DOT-methods
+- Literature study
+- Prototyping
+- Benchmark test
+
+
 ### REST
 I created a basic application to test the criteria on, this prototype can be found [here](https://github.com/Portfolio-Advanced-software/micro-service-communication-prototype/tree/main/REST).
 
 #### Scalability
+The best explanation I found was on [stack overflow](https://stackoverflow.com/questions/11297471/why-are-restful-applications-easier-to-scale). The benefits explained there are:
+- Stateless, meaning the server doesn't have to store information for the connection making it easier to scale.
+
+Other benefits were only about it's performance and not unique characteristics that improves the scalability
+
+
+
 #### Performance
 #### Reliability
 
@@ -288,6 +305,8 @@ I created a basic application to test the criteria on, this prototype can be fou
 I created a gRPC prototype already so I will be testing it on [that one](https://github.com/Portfolio-Advanced-software/Golang-gRPC-POC).
 
 #### Scalability
+
+
 #### Performance
 #### Reliability
 
