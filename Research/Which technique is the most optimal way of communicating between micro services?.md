@@ -306,6 +306,7 @@ Other benefits were only about it's performance and not unique characteristics t
 
 
 #### Performance
+![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/5e70cc1d-1bf2-464d-b06d-3ab2809f484a)
 
 
 #### Reliability
@@ -321,6 +322,8 @@ I created a gRPC prototype already so I will be testing it on [that one](https:/
 
 
 #### Performance
+![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/fb2d3fcc-d501-4b20-a814-4cbf5499f5bb)
+
 #### Reliability
 
 
@@ -332,6 +335,9 @@ While doing research about implementing a prototype I concluded that it is an ar
 
 #### Scalability
 #### Performance
+![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/fa41a4cc-7f54-4dc1-b5ff-098ca43e9647)
+
+
 #### Reliability
 
 
