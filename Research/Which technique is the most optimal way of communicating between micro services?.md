@@ -281,10 +281,12 @@ I used the baseline settings for the REST performance test as the baseline for t
 
 <table>
   <tr>
-    <td><img src="https://github.com/Portfolio-Advanced-software/.github/assets/73555911/9d5e2e34-4c5b-4d76-a32b-0481db908110" width=500 height=400></td>
-    <td><img src="https://github.com/Portfolio-Advanced-software/.github/assets/73555911/f915b075-f704-4eef-9066-dd51719b55d1" width=500 height=400></td>
+    <td><img src="https://github.com/Portfolio-Advanced-software/.github/assets/73555911/74e58385-44fc-4df3-8dd7-4d1f0112162b" width=500 height=400></td>
+    <td><img src="https://github.com/Portfolio-Advanced-software/.github/assets/73555911/cafd6f28-b9a9-4cd5-beeb-b562a7ebba33" width=500 height=400></td>
   </tr>
 </table>
+
+
 
 ### DOT-methods
 - Literature study
