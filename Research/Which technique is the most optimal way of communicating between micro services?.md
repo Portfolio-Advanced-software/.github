@@ -349,7 +349,10 @@ While doing research about implementing a prototype I concluded that it is an ar
 The article mentioned that streaming is possible with gRPC or a streaming broker like Kafka. So I will be using the [gRPC prototype](https://github.com/Portfolio-Advanced-software/Golang-gRPC-POC) and the [Kafka one](https://github.com/Portfolio-Advanced-software/micro-service-communication-prototype/tree/main/Kafka).
 
 #### Scalability
+
 #### Performance
+![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/a0d93b44-461a-49ae-85c4-c1d51cb1dd50)
+
 #### Reliability
 
 
