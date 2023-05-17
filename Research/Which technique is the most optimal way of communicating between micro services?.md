@@ -372,4 +372,6 @@ At last I created a prototype using GraphQL to query messages, that one can be f
 
 #### Scalability
 #### Performance
+![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/7335ba05-2de5-437d-8d71-5be5ec6e9bc3)
+
 #### Reliability
