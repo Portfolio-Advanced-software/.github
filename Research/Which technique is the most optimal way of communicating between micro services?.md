@@ -308,6 +308,8 @@ Other benefits were only about it's performance and not unique characteristics t
 #### Performance
 ![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/5e70cc1d-1bf2-464d-b06d-3ab2809f484a)
 
+- Response time: 2.31ms
+- Throughput: 197.04 Transactions/s
 
 #### Reliability
 
@@ -319,10 +321,16 @@ Other benefits were only about it's performance and not unique characteristics t
 I created a gRPC prototype already so I will be testing it on [that one](https://github.com/Portfolio-Advanced-software/Golang-gRPC-POC).
 
 #### Scalability
+[This article](https://www.linkedin.com/pulse/boosting-your-applications-scalability-why-grpc-future-albin-joseph/) talks about a lot of pros/cons of REST and gRPC, also a lot of performance wise. The most rewarding one is:
+- It is polyglot, meaning it has a lot of support for programming languages, because it is binary. 
 
+This can come in handy in building a micro service architecture where there are services build with different programming languages.
 
 #### Performance
 ![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/fb2d3fcc-d501-4b20-a814-4cbf5499f5bb)
+
+- Response time: 72.71ms
+- Throughput: 80.65 Transactions/s
 
 #### Reliability
 
@@ -334,8 +342,15 @@ I created a gRPC prototype already so I will be testing it on [that one](https:/
 While doing research about implementing a prototype I concluded that it is an architectural approach but they both use a broker to send and receive data. The prototype I created can be found [here](https://github.com/Portfolio-Advanced-software/micro-service-communication-prototype/tree/main/RabbitMQ).
 
 #### Scalability
+[The official RabbitMQ](https://www.rabbitmq.com/features.html) site talks about its implementation and benefits of using it. A few are:
+- RabbitMQ brokers can be clustered and therefore be scaled for availability, [explained here](https://stackoverflow.com/questions/30439676/scaling-in-rabbitmq)
+- Because there is a broker implemented the micro services are more loosely coupled, meaning the micro services can scale more independently.
+
 #### Performance
 ![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/fa41a4cc-7f54-4dc1-b5ff-098ca43e9647)
+
+- Response time: 1065.82ms
+- Throughput: 19.08 Transactions/s
 
 
 #### Reliability
@@ -346,14 +361,17 @@ While doing research about implementing a prototype I concluded that it is an ar
 
 
 ### Streaming
-The article mentioned that streaming is possible with gRPC or a streaming broker like Kafka. So I will be using the [gRPC prototype](https://github.com/Portfolio-Advanced-software/Golang-gRPC-POC) and the [Kafka one](https://github.com/Portfolio-Advanced-software/micro-service-communication-prototype/tree/main/Kafka).
+The article mentioned that streaming is possible with gRPC or a streaming broker like Kafka. So I will be using the [gRPC prototype](https://github.com/Portfolio-Advanced-software/Golang-gRPC-POC) and the [Kafka one](https://github.com/Portfolio-Advanced-software/micro-service-communication-prototype/tree/main/Kafka). While testing I came to the conclusion that testing the gRPC streaming service wasn't working as planned, unfortunately I didn't test it.
 
-#### Scalability
+While working with streaming I came to the conclusion that it's a way of communicating and sending data in real-time. So the test for gRPC streaming is relevant for gRPC and Kafka streams are relevant for Kafka which is kind of a messaging broker.
 
 #### Performance
+Testing streams in Kafka as well as with gRPC weren't easy and looking back on the test results maybe something isn't going right. Therefore I won't be including Kafka streaming in my options.
 ![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/a0d93b44-461a-49ae-85c4-c1d51cb1dd50)
 
-#### Reliability
+- Response time: 204409.81ms
+- Throughput: 0.30 Transactions/s
+
 
 
 <br>
@@ -363,9 +381,14 @@ The article mentioned that streaming is possible with gRPC or a streaming broker
 ### Binary
 I created a prototype using the binary protocol TCP to communicate, it can be found [here](https://github.com/Portfolio-Advanced-software/micro-service-communication-prototype/tree/main/TCP).
 
-#### Scalability
+While creating the prototype I came to the conclusion that TCP is a protocol and therefore I can test its performance but it doensn't have specific characteristics, they inherit them from the used method (like gRCP that uses the binary protocol protobuf).
+
 #### Performance
 ![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/973cd616-eab7-4907-8662-a5968ba2951f)
+
+- Response time: 0.41ms
+- Throughput: 182.48 Transactions/s
+
 
 #### Reliability
 
@@ -376,7 +399,13 @@ I created a prototype using the binary protocol TCP to communicate, it can be fo
 At last I created a prototype using GraphQL to query messages, that one can be found [here](https://github.com/Portfolio-Advanced-software/micro-service-communication-prototype/tree/main/GraphQL).
 
 #### Scalability
+
+
+
 #### Performance
 ![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/7335ba05-2de5-437d-8d71-5be5ec6e9bc3)
+
+- Response time: 3.16ms
+- Throughput: 197.24 Transactions/s
 
 #### Reliability
