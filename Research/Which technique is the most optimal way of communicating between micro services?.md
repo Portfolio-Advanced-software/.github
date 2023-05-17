@@ -362,6 +362,8 @@ I created a prototype using the binary protocol TCP to communicate, it can be fo
 
 #### Scalability
 #### Performance
+![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/973cd616-eab7-4907-8662-a5968ba2951f)
+
 #### Reliability
 
 <br>
