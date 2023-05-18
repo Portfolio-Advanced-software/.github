@@ -399,7 +399,8 @@ While creating the prototype I came to the conclusion that TCP is a protocol and
 At last I created a prototype using GraphQL to query messages, that one can be found [here](https://github.com/Portfolio-Advanced-software/micro-service-communication-prototype/tree/main/GraphQL).
 
 #### Scalability
-
+[This article](https://www.makeuseof.com/graphql-benefits-using/) talks about the same characteristic as gRPC:
+- It works with every database and back-end which makes it great for scaling and working with more external micro services.
 
 
 #### Performance
