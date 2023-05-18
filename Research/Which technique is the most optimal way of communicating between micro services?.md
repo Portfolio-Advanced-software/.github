@@ -437,9 +437,15 @@ Beside the already measured performance metrics, the reliability of GraphQL is d
 
 Before selecting a optimal type of communication I must say that I should take the performance results with a grain of salt, especially the more difficult to implement ones, because some articles I read described that because of the difficulty while implementing them you could obsecure the performance.
 
-To choose which type of communication came out best of all the results, I'm going to reward every type with 1 point for every benefit and then rank it across the performance test. The results look like this:
+To choose which type of communication came out best of all the results, I'm going to reward every type with 1 point for every benefit and then rank it across the performance test (for response time <100 = 1 point and throughput >100 = point). The results look like this:
 
-- 
+1. RabbitMQ
+2. REST
+2. gRPC
+2. GraphQL
+3. TCP
+4. Streaming
 
 
 ## Conclusion
+RabbitMQ is the most optimal way 
