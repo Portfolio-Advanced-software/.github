@@ -266,7 +266,7 @@ I will be testing the performance by looking at response time and throughput. Th
 
 
 ### Reliability
-It is hard to find anything online about testing reliability, unless you have a specific thing you want to test. Luckely I alreadt had an idea in mind. For reliability I will be looking at overloading the system and seeing what happens, this means I will try to overload the system with Jmeter and see if it comes back online. I will analyse this out of the Jmeter reports.
+It is hard to find anything online about testing reliability, unless you have a specific thing you want to test. Luckely I already had an idea in mind. For reliability I will be looking at overloading the system and seeing what happens, this means I will try to overload the system with Jmeter and see how fast is fails/recovers. In the end testing with Jmeter didn't seem so reliable so therefore I will do a literature study on the reliability, also because testing wil get the same results, like error rate and response time.
 
 
 
@@ -311,7 +311,9 @@ Other benefits were only about it's performance and not unique characteristics t
 - Response time: 2.31ms
 - Throughput: 197.04 Transactions/s
 
+
 #### Reliability
+Beside the already measured performance metrics, the reliability of REST is depended on the implementations, etc.
 
 
 <br>
@@ -333,6 +335,8 @@ This can come in handy in building a micro service architecture where there are 
 - Throughput: 80.65 Transactions/s
 
 #### Reliability
+The reliability of gRPC is almost like REST, depended on the extra implemented security and control measurements. Beside the previous does [this article](https://doordash.engineering/2021/01/12/building-a-grpc-client-standard-with-open-source/) also talk about the strongly typed communication standards what makes it more reliable in case of what output is expected.
+- Expected output
 
 
 <br>
@@ -354,6 +358,9 @@ While doing research about implementing a prototype I concluded that it is an ar
 
 
 #### Reliability
+Like discussed in [the article](https://www.rabbitmq.com/features.html) before it talks about message queues that in case of a micro service failure will keep existing. Beside that RabbitMQ can cluster for a higher availability making it smaller for down time.
+- Loosely coupled of micro services, meaning in case of failure the message is kept alive by the broker
+- Clustering different RabbitMQ nodes results in higher availability.
 
 
 <br>
@@ -391,6 +398,8 @@ While creating the prototype I came to the conclusion that TCP is a protocol and
 
 
 #### Reliability
+Beside the already measured performance metrics, the reliability of a binary protocol is depended on the implementations, etc.
+
 
 <br>
 
@@ -410,3 +419,27 @@ At last I created a prototype using GraphQL to query messages, that one can be f
 - Throughput: 197.24 Transactions/s
 
 #### Reliability
+Beside the already measured performance metrics, the reliability of GraphQL is depended on the implementations, etc.
+
+
+
+
+
+<br>
+
+
+
+
+## Which communication type is the best for this use case?
+
+### DOT-methods
+- Multi-criteria decision making
+
+Before selecting a optimal type of communication I must say that I should take the performance results with a grain of salt, especially the more difficult to implement ones, because some articles I read described that because of the difficulty while implementing them you could obsecure the performance.
+
+To choose which type of communication came out best of all the results, I'm going to reward every type with 1 point for every benefit and then rank it across the performance test. The results look like this:
+
+- 
+
+
+## Conclusion
