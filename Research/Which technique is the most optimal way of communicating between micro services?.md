@@ -448,4 +448,4 @@ To choose which type of communication came out best of all the results, I'm goin
 
 
 ## Conclusion
-RabbitMQ is the most optimal way 
+RabbitMQ is the most optimal way for these use cases as communication between micro services. It scores a lot of pros on the criteria on the other hand it didn't score quite well on the performance, but many articles described that it was harder to implement right and get all the benefits out of it. Beside that it was also publishing and consuming messages at the same time in the performance test. Therefore I don't weigh so hard on it. I think RabbitMQ is an excellent choice and see my research hereby finished for now. In the future I could go deeper on which message broker is right for this use case for example.
