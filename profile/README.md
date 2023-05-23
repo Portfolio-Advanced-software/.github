@@ -91,6 +91,7 @@ You acquire skills required for your future career. You are aware of multiple ca
 
 #### Substantiation
 
+
 1.0: Sprint 0
 -
 
