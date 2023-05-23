@@ -85,10 +85,14 @@ You acquire skills required for your future career. You are aware of multiple ca
 #### Score
 | Id | Description | Type | Level |
 |---|---|---|---|
+| 1.0 | Sprint 0 | Group project | Undefined |
 | 1.1 | Sprint 1 | Individual project | Orienting |
 | 1.2 | Sprint 2 | Individual project | Proficient |
 
 #### Substantiation
+
+1.0: Sprint 0
+-
 
 1.1: Sprint 1
 I'm already busy to prepare myself for a minor abroad so I'm busy with developing myself and my career. I will write more in [this document](https://github.com/Portfolio-Advanced-software/.github/blob/main/Personal%20development.md) to support this learning outcome.
@@ -106,16 +110,16 @@ You use appropriate communication considering your role in a team, your audience
 #### Score
 | Id | Description | Type | Level |
 |---|---|---|---|
-| 1.1 | Sprint 0 | Group project | Orienting |
-| 1.2 | Sprint 1 | Group project | Beginning |
+| 1.0 | Sprint 0 | Group project | Orienting |
+| 1.1 | Sprint 1 | Group project | Beginning |
 | 1.2 | Sprint 2 | Individual project | Beginning |
 | 1.3 | Sprint 3 | Individual project | Proficient |
 
 
 #### Substantiation
 
-1.1: Sprint 0
-We had two great standups with our semester coach agreeing. We really started off great, because we immidiately created a jira board with user stories including story points that we figured out doing poker planning. We also created a group contract at the start to ensure everybody's availability and responsibility.
+1.0: Sprint 0
+We had two great standups with our semester coach agreeing. We really started off great, because we immidiately created a jira board with user stories including story points that we figured out doing poker planning. We also created a group contract at the start to ensure everybody's availability and responsibility. We also did a small delivery which can be found [here](https://github.com/S-A-RB05/.github/tree/main/Sprint%20deliveries/Sprint%200)
 
 <img width="819" alt="Scherm­afbeelding 2023-04-12 om 10 05 05" src="https://user-images.githubusercontent.com/73555911/231393266-f27481dd-fcec-410a-b1c9-57b7f9cfe11b.png">
 
@@ -124,17 +128,25 @@ Beside that we also did a peer review to assess our skills and contributions to 
 <img width="817" alt="Scherm­afbeelding 2023-04-12 om 10 06 01" src="https://user-images.githubusercontent.com/73555911/231393720-bd92af6e-1fb3-40c6-8534-e5074dd45bda.png">
 
 
-
-1.2: Sprint 1
-We continued with the standups and they became more meaningful when starting on the project. We adjusted the user stories after the planning with our product owner and start working on an real agile way in sprint 1, by creating tasks related to the user stories. The jira board was pretty much up to date during the whole sprint. For my individual i also created a git project board
+1.1: Sprint 1
+We continued with the standups and they became more meaningful when starting on the project. We adjusted the user stories after the planning with our product owner and start working on an real agile way in sprint 1, by creating tasks related to the user stories. The jira board was pretty much up to date during the whole sprint. For my individual i also created a git project board.
 
 <img src="https://i.postimg.cc/fbZSWSxz/Scherm-afbeelding-2023-03-29-om-22-14-11.png" width=500 height=250>
 
 <img width="1438" alt="Scherm­afbeelding 2023-04-13 om 09 40 16" src="https://user-images.githubusercontent.com/73555911/231689273-686b29c8-c1e6-4e32-a024-c8499ebe798c.png">
 
 
-
 ![User story](https://user-images.githubusercontent.com/73555911/232322366-857b6e20-9951-4545-b160-c54088642f5b.png)
+
+At last we also did a [sprint delivery](https://github.com/S-A-RB05/.github/tree/main/Sprint%20deliveries/Sprint%201) our first official one. We did a good first presentation, but we should focus on being less technical and ensure live demos and files as much as possible.
+
+
+1.2: Sprint 2
+We did a better presentation, the only feedback we received was including the research in the presentation and also clearly show what user stories are finished or not. On another matter we got feedback to create smaller user stories to guarantee not working on them multiple sprints. [Sprint delivery can be found here](https://github.com/S-A-RB05/.github/tree/main/Sprint%20deliveries/Sprint%202)
+
+
+1.3: Sprint 3
+We involved the feedback from our last presentation into our current one and therefore reaching the proficient level. [Sprint delivery can be found here](https://github.com/S-A-RB05/.github/tree/main/Sprint%20deliveries/Sprint%203)
 
 
 <br>
@@ -146,19 +158,21 @@ Besides functionality, you develop the architecture of enterprise software based
 #### Score
 | Id | Description | Type | Level |
 |---|---|---|---|
-| 1.1 | Sprint 0 | Group project | Orienting |
-| 1.2 | Sprint 1 | Individual project | Orienting |
-| 1.3 | Sprint 2 | Individual project | Beginning |
+| 1.0 | Sprint 0 | Group project | Orienting |
+| 1.1 | Sprint 1 | Individual project | Orienting |
+| 1.2 | Sprint 2 | Individual project | Beginning |
+| 1.3 | Sprint 3 | Individual project | Beginning |
+| 1.4 | Sprint 4 | Individual project | Beginning |
 
 #### Substantiation
 
-1.1: Sprint 0
+1.0: Sprint 0
+-
 
-
-1.2: Sprint 1
+1.1: Sprint 1
 For my individual project I created a C1 & C2 model to base my project on. The architecture can be found [here](https://github.com/Portfolio-Advanced-software/.github/blob/main/BingeBuster/Architecture.md). Besides that I spent a lot of time figuring out how to create Dockerfiles and how to run MetaTrader inside a Docker container. I wrote a little tutorial about it that can be found [here](https://github.com/Portfolio-Advanced-software/.github/blob/main/Documentation/Creating%20docker%20container%20running%20MetaTrader%205.md). Finally I created a little POC to test communication between two GO servers using rabbitMQ that can be found [here](https://github.com/Portfolio-Advanced-software/GO-RabbitMQ-POC)
 
-1.3 Sprint 2
+1.2 Sprint 2
 I created all the necessary repo's for my BingeBuster project with basic implementation for messaging with RabbitMQ. Beside that I started with kubernetes in the group project so I can use this for my individual. You can see the minikube (local kubernetes) dashboard where I created a config that keep 3 instances running at all times.
 
 https://user-images.githubusercontent.com/73555911/231696399-f423322d-51aa-4010-b949-ff2b0f4e2d75.mp4
@@ -167,6 +181,12 @@ To allow scaling in the future I chose to go with gRPC instead of REST because o
 
 
 https://user-images.githubusercontent.com/73555911/232235678-c332b568-3617-40ca-92ba-3ab2569824f0.mp4
+
+
+1.3 Sprint 3
+
+
+1.4 Sprint 4
 
 
 <br>
@@ -187,6 +207,9 @@ You set up environments and tools which support your chosen software development
 
 #### Substantiation
 
+1.0 Sprint 0
+-
+
 1.1: Sprint 1
 For our sprint 1 delivery I helped create the CI/CD to docker hub to make it as easy as possible for our customer to deploy it on its own systems. 
 
@@ -195,6 +218,12 @@ Beside that I created a CI start for my front-end that builds and tests my proje
 
 The CI/CD for my service is working, it builds a docker image based on the dockerfile in the repo and publishes it to docker hub.
 ![image](https://user-images.githubusercontent.com/73555911/232327654-3569dd7f-8b06-487f-a978-0f0951e04a07.png)
+
+
+1.3 Sprint 3
+
+1.4 Sprint 4
+
 
 
 <br>
