@@ -93,7 +93,6 @@ You acquire skills required for your future career. You are aware of multiple ca
 
 
 1.0: Sprint 0
--
 
 1.1: Sprint 1
 I'm already busy to prepare myself for a minor abroad so I'm busy with developing myself and my career. I will write more in [this document](https://github.com/Portfolio-Advanced-software/.github/blob/main/Personal%20development.md) to support this learning outcome.
@@ -168,7 +167,7 @@ Besides functionality, you develop the architecture of enterprise software based
 #### Substantiation
 
 1.0: Sprint 0
--
+
 
 1.1: Sprint 1
 For my individual project I created a C1 & C2 model to base my project on. The architecture can be found [here](https://github.com/Portfolio-Advanced-software/.github/blob/main/BingeBuster/Architecture.md). Besides that I spent a lot of time figuring out how to create Dockerfiles and how to run MetaTrader inside a Docker container. I wrote a little tutorial about it that can be found [here](https://github.com/Portfolio-Advanced-software/.github/blob/main/Documentation/Creating%20docker%20container%20running%20MetaTrader%205.md). Finally I created a little POC to test communication between two GO servers using rabbitMQ that can be found [here](https://github.com/Portfolio-Advanced-software/GO-RabbitMQ-POC)
@@ -209,7 +208,7 @@ You set up environments and tools which support your chosen software development
 #### Substantiation
 
 1.0 Sprint 0
--
+
 
 1.1: Sprint 1
 For our sprint 1 delivery I helped create the CI/CD to docker hub to make it as easy as possible for our customer to deploy it on its own systems. 
@@ -245,7 +244,7 @@ You can explain what a cloud platform provider is and can deploy (parts of) your
 #### Substantiation
 
 1.0: Sprint 0
--
+
 
 1.1: Sprint 1
 I did some research to find a cloud service for RabbitMQ for [my POC](https://github.com/Portfolio-Advanced-software/GO-RabbitMQ-POC). This would also come in handy for our group project because we can all use the same one and that'll make it easier for development and testing.
@@ -285,16 +284,12 @@ You investigate how to minimize security risks for your application, and you inc
 #### Substantiation
 
 1.0: Sprint 0
--
 
 1.1: Sprint 1
--
 
 1.2: Sprint 2
--
 
 1.3: Sprint 3
--
 
 1.4: Sprint 4
 I created my own auth service to secure my gateway, it works with JWT-tokens and doesn't allow access when it's missing or incorrect. You can find more information in [its repo here](https://github.com/Portfolio-Advanced-software/BingeBuster-Auth-Service)
@@ -318,10 +313,8 @@ You are aware of specific data requirements for enterprise systems. You apply be
 #### Substantiation
 
 1.0: Sprint 0
--
 
 1.1: Sprint 1
--
 
 1.2: Sprint 2
 I created an api in Golang with gRPC with its own database (mongodb) this repo can be found [here](https://github.com/Portfolio-Advanced-software/gRPC-API-Golang).
@@ -329,10 +322,8 @@ I created an api in Golang with gRPC with its own database (mongodb) this repo c
 https://user-images.githubusercontent.com/73555911/232321955-ddfa006d-04c0-4e30-b78c-407b2798ff43.mp4
 
 1.3: Sprint 3
--
 
 1.4: Sprint 4
--
 
 
 
