@@ -12,8 +12,10 @@ The individual project is platform based on Netflix. Because I'm interested in s
 
 
 ### Start
-<Explain your starting knowledge, experience, interests and what you would like to learn and achieve this semester>.
+The last semester we had similar topics was semester 3 and I really liked that semester, so far I know what a micro service architecture is and how you connect it to the front-end with an api-gateway. Beside that I already have some experience with containerizing using Docker, so I have a good starting point. I'm looking forward to exploring more topics regarding this architecture and diving deeper in this field. We learned about the scaling benefits in semester 3, but never got to the point where we would actually scale, so I'm interested to actually scale this semester and learn what's needed to do so. I hope that this semester will allow me to get more specialised in micro service architecture.
 
+
+<br>
 
 
 ## Learning outcomes
@@ -25,24 +27,27 @@ You develop and deploy enterprise software, both individually and as a team, tha
 #### Score
 | Id | Description | Type | Level |
 |---|---|---|---|
-| 1.1 | Sprint 0 | Group project | Orienting |
-| 1.2 | Sprint 1 | Individual project | Orienting |
-| 1.3 | Sprint 2 | Individual project | Beginning |
+| 1.0 | Sprint 0 | Group project | Orienting |
+| 1.1 | Sprint 1 | Individual project | Orienting |
+| 1.2 | Sprint 2 | Individual project | Beginning |
+| 1.3 | Sprint 3 | Individual project | Proficient |
 
 #### Substantiation
 
-1.1: Sprint 0
+1.0: Sprint 0
 The first sprint I developed a feeling for what enterprise software means and started to translate it to user stories that keep certain enterprise topics into mind like speed and scalability to improve the customer's processes.
 
-1.2: Sprint 1
+1.1: Sprint 1
 I created simple non functional requirements that are linked to enterprise software and applicable to my individual project. [Non-functional requirements](https://github.com/Portfolio-Advanced-software/.github/blob/main/BingeBuster/Non-functional%20requirements%20BingeBuster.md)
 
-1.3: Sprint 2
+1.2: Sprint 2
 We started a [document](https://github.com/S-A-RB05/.github/blob/main/profile/Technology%20justification.md) in our group to justify the technology we are using. Beside that I'm getting familiar with certain terms that are used in an enterprise environment and why they're useful for certain scenarios (gRPC, Docker, Kubernetes, etc.)
 
+1.3: Sprint 3
+After receiving good feedback on our document, we fixed the last remark by adding a picture for clarification and [the document](https://github.com/S-A-RB05/.github/blob/main/profile/Technology%20justification.md) is currently finished and will be overhanded to our product owner.
 
 
-
+<br>
 
 
 ### Learning Outcome 2 - Investigative Problem-Solving
@@ -51,19 +56,27 @@ You deliver professional products according to planning, which is the result of 
 #### Score
 | Id | Description | Type | Level |
 |---|---|---|---|
-| 1.1 | Sprint 0 | Group project | Orienting |
-| 1.2 | Sprint 1 | Individual project | Orienting |
+| 1.0 | Sprint 0 | Group project | Orienting |
+| 1.1 | Sprint 1 | Individual project | Orienting |
+| 1.2 | Sprint 2 | Individual project | Beginning |
+| 1.3 | Sprint 3 | Individual project | Proficient |
 
 #### Substantiation
 
-1.1: Sprint 0
+1.0: Sprint 0
 The first sprint I developed a feeling for what enterprise software means and started to translate it to user stories that keep certain enterprise topics into mind like speed and scalability to improve the customer's processes.
 
-1.2: Sprint 1
+1.1: Sprint 1
 I wrote a researchplan for my individual research that will help the group project ass well as my individual project. This plan can be found [here](https://github.com/Portfolio-Advanced-software/.github/blob/main/Research/Research%20plan%20micro%20service%20communication.md). Besides that I created user stories for my individual project they can be found [here](https://github.com/Portfolio-Advanced-software/.github/blob/main/BingeBuster/User%20stories%20BingeBuster.md).
 
+1.2: Sprint 2
+I started thinking about how I will actually do my research based on my plan and if after gaining some more knowledge the last couple of weeks it's still correct. I changed some of the questions to help me get to a better answer and to not make it even more broader. I started [my research](https://github.com/Portfolio-Advanced-software/.github/blob/main/Research/Which%20technique%20is%20the%20most%20optimal%20way%20of%20communicating%20between%20micro%20services%3F.md) by doing some literature study. My plan is to finish it next sprint completely.
+
+1.3: Sprint 3
+I started creating the necessary prototypes for my research and testing the criteria on it. Finally I came to a conclusion that can be read in [my research here](https://github.com/Portfolio-Advanced-software/.github/blob/main/Research/Which%20technique%20is%20the%20most%20optimal%20way%20of%20communicating%20between%20micro%20services%3F.md)
 
 
+<br>
 
 
 ### Learning Outcome 3 - Personal Leadership
@@ -84,12 +97,7 @@ I'm already busy to prepare myself for a minor abroad so I'm busy with developin
 Recently I've been reflecting more and more on my career path and where I finally want to work to. This helped finish the personal development document. Because I'm planning of going abroad in a few months I started broadening my view to the future and discovering new paths. You can read about it in [this document](https://github.com/Portfolio-Advanced-software/.github/blob/main/Personal%20development.md).
 
 
-
-
-
-
-
-
+<br>
 
 
 ### Learning Outcome 4 - Targeted Interaction
@@ -100,6 +108,9 @@ You use appropriate communication considering your role in a team, your audience
 |---|---|---|---|
 | 1.1 | Sprint 0 | Group project | Orienting |
 | 1.2 | Sprint 1 | Group project | Beginning |
+| 1.2 | Sprint 2 | Individual project | Beginning |
+| 1.3 | Sprint 3 | Individual project | Proficient |
+
 
 #### Substantiation
 
@@ -126,6 +137,7 @@ We continued with the standups and they became more meaningful when starting on 
 ![User story](https://user-images.githubusercontent.com/73555911/232322366-857b6e20-9951-4545-b160-c54088642f5b.png)
 
 
+<br>
 
 
 ### Learning Outcome 5 - Scalable Architectures
@@ -157,14 +169,20 @@ To allow scaling in the future I chose to go with gRPC instead of REST because o
 https://user-images.githubusercontent.com/73555911/232235678-c332b568-3617-40ca-92ba-3ab2569824f0.mp4
 
 
+<br>
+
+
 ### Learning Outcome 6 - Development and Operations (DevOps)
 You set up environments and tools which support your chosen software development process. You provide governance for all stakeholders’ goals. You aim for as much automation as possible, to enable short release times and high software quality.
 
 #### Score
 | Id | Description | Type | Level |
 |---|---|---|---|
-| 1.1 | Sprint 0 | Group project | Orienting |
+| 1.0 | Sprint 0 | Group project | Orienting |
+| 1.1 | Sprint 1 | Individual project | Orienting |
 | 1.2 | Sprint 2 | Individual project | Orienting |
+| 1.3 | Sprint 3 | Individual project | Orienting |
+| 1.4 | Sprint 4 | Individual project | Orienting |
 
 
 #### Substantiation
@@ -179,9 +197,7 @@ The CI/CD for my service is working, it builds a docker image based on the docke
 ![image](https://user-images.githubusercontent.com/73555911/232327654-3569dd7f-8b06-487f-a978-0f0951e04a07.png)
 
 
-
-
-
+<br>
 
 
 ### Learning Outcome 7 - Cloud Services
@@ -190,27 +206,38 @@ You can explain what a cloud platform provider is and can deploy (parts of) your
 #### Score
 | Id | Description | Type | Level |
 |---|---|---|---|
-| 1.1 | Sprint 0 | Group project | Undefined |
-| 1.2 | Sprint 1 | Individual project | Undefined |
-| 1.3 | Sprint 2 | Individual project | Orienting |
+| 1.0 | Sprint 0 | Group project | Undefined |
+| 1.1 | Sprint 1 | Individual project | Undefined |
+| 1.2 | Sprint 2 | Individual project | Orienting |
+| 1.3 | Sprint 3 | Individual project | Beginning |
+| 1.4 | Sprint 4 | Individual project | Beginning |
 
 #### Substantiation
 
-1.1: Sprint 0
+1.0: Sprint 0
+-
 
-
-1.2: Sprint 1
+1.1: Sprint 1
 I did some research to find a cloud service for RabbitMQ for [my POC](https://github.com/Portfolio-Advanced-software/GO-RabbitMQ-POC). This would also come in handy for our group project because we can all use the same one and that'll make it easier for development and testing.
 
 ![image](https://user-images.githubusercontent.com/73555911/232322941-1abc6e1f-a341-4a2a-8907-aad9c3a5082e.png)
 
-1.3: Sprint 2
+1.2: Sprint 2
 I started hosting my mongodb to a cloud provider and therefore creating more experienct with cloud providers. I seperated the databases by database name for my microservices.
 
 ![image](https://user-images.githubusercontent.com/73555911/232322922-8a476285-9136-446e-aebb-e53ac2454795.png)
 
 Finally I use docker hub to automatically publish my docker images to and host them.
 ![image](https://user-images.githubusercontent.com/73555911/232327899-851747f7-f189-46dd-91af-541e9fd9496c.png)
+
+1.3: Sprint 3
+I started looking into ways to deploy a Kubernetes cluster, I wanted to try it using Oracle Cloud, because I already had an account there. Unfortunately it didn't succeed (yet), you can read about my progression [here](https://github.com/Portfolio-Advanced-software/.github/blob/main/Documentation/Deploy%20Kubernetes%20cluster.md)
+
+1.4: Sprint 4
+
+
+
+<br>
 
 
 ### Learning Outcome 8 - Security by Design
@@ -219,16 +246,31 @@ You investigate how to minimize security risks for your application, and you inc
 #### Score
 | Id | Description | Type | Level |
 |---|---|---|---|
-| 1.1 | Sprint 0 | Group project | Undefined |
-| 1.2 | Sprint 1 | Individual project | Undefined |
+| 1.0 | Sprint 0 | Group project | Undefined |
+| 1.1 | Sprint 1 | Individual project | Undefined |
+| 1.2 | Sprint 2 | Individual project | Undefined |
+| 1.3 | Sprint 3 | Individual project | Undefined |
+| 1.4 | Sprint 4 | Individual project | Orienting |
 
 #### Substantiation
 
-1.1: Sprint 0
+1.0: Sprint 0
+-
 
-1.2: Sprint 1
+1.1: Sprint 1
+-
+
+1.2: Sprint 2
+-
+
+1.3: Sprint 3
+-
+
+1.4: Sprint 4
+I created my own auth service to secure my gateway, it works with JWT-tokens and doesn't allow access when it's missing or incorrect. You can find more information in [its repo here](https://github.com/Portfolio-Advanced-software/BingeBuster-Auth-Service)
 
 
+<br>
 
 
 ### Learning Outcome 9 – Distributed Data
@@ -237,23 +279,34 @@ You are aware of specific data requirements for enterprise systems. You apply be
 #### Score
 | Id | Description | Type | Level |
 |---|---|---|---|
-| 1.1 | Sprint 0 | Group project | Undefined |
-| 1.2 | Sprint 1 | Individual project | Undefined |
-| 1.3 | Sprint 1 | Individual project | Orienting |
+| 1.0 | Sprint 0 | Group project | Undefined |
+| 1.1 | Sprint 1 | Individual project | Undefined |
+| 1.2 | Sprint 2 | Individual project | Orienting |
+| 1.3 | Sprint 3 | Individual project | Orienting |
+| 1.4 | Sprint 4 | Individual project | Orienting |
 
 #### Substantiation
 
-1.1: Sprint 0
+1.0: Sprint 0
+-
 
+1.1: Sprint 1
+-
 
-1.2: Sprint 1
-
-1.3: Sprint 2
+1.2: Sprint 2
 I created an api in Golang with gRPC with its own database (mongodb) this repo can be found [here](https://github.com/Portfolio-Advanced-software/gRPC-API-Golang).
 
 https://user-images.githubusercontent.com/73555911/232321955-ddfa006d-04c0-4e30-b78c-407b2798ff43.mp4
 
+1.3: Sprint 3
+-
 
+1.4: Sprint 4
+-
+
+
+
+<br>
 
 
 
