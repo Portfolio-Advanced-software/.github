@@ -202,7 +202,7 @@ You set up environments and tools which support your chosen software development
 | 1.1 | Sprint 1 | Individual project | Orienting |
 | 1.2 | Sprint 2 | Individual project | Orienting |
 | 1.3 | Sprint 3 | Individual project | Orienting |
-| 1.4 | Sprint 4 | Individual project | Orienting |
+| 1.4 | Sprint 4 | Individual project | Beginning |
 
 
 #### Substantiation
@@ -223,6 +223,9 @@ The CI/CD for my service is working, it builds a docker image based on the docke
 1.3 Sprint 3
 
 1.4 Sprint 4
+I created a pipeline for my kubernetes yaml files repo. The repo will connect to my Google cloud cluster and will apply the YAML files so the deployments are always up to date. The yaml files grab the most up to date ones from my [Docker hub](https://hub.docker.com/u/milofow) that are published at every push to the main branch.
+
+![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/1aacc052-8543-4eae-9570-e6fd38e83316)
 
 
 
@@ -239,7 +242,7 @@ You can explain what a cloud platform provider is and can deploy (parts of) your
 | 1.1 | Sprint 1 | Individual project | Undefined |
 | 1.2 | Sprint 2 | Individual project | Orienting |
 | 1.3 | Sprint 3 | Individual project | Beginning |
-| 1.4 | Sprint 4 | Individual project | Beginning |
+| 1.4 | Sprint 4 | Individual project | Proficient |
 
 #### Substantiation
 
@@ -263,6 +266,9 @@ Finally I use docker hub to automatically publish my docker images to and host t
 I started looking into ways to deploy a Kubernetes cluster, I wanted to try it using Oracle Cloud, because I already had an account there. Unfortunately it didn't succeed (yet), you can read about my progression [here](https://github.com/Portfolio-Advanced-software/.github/blob/main/Documentation/Deploy%20Kubernetes%20cluster.md)
 
 1.4: Sprint 4
+To deploy my project fully to the cloud and prove that it works like a scalable micro service I deployed a kubernetes cluster on Google Cloud, called my BingeBuster-Cluster. For now some of my services are deployed on it, but I will deploy them all by the end of this sprint.
+
+![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/fd7023d0-f048-4e36-9650-b90198a94818)
 
 
 
@@ -286,6 +292,7 @@ You investigate how to minimize security risks for your application, and you inc
 1.0: Sprint 0
 
 1.1: Sprint 1
+I added docker secrets in my [workflow](https://github.com/Portfolio-Advanced-software/BingeBuster-MovieService/blob/main/.github/workflows/docker.yml) to push to dockerhub to hide my username and password
 
 1.2: Sprint 2
 
