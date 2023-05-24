@@ -308,7 +308,7 @@ You are aware of specific data requirements for enterprise systems. You apply be
 | 1.1 | Sprint 1 | Individual project | Undefined |
 | 1.2 | Sprint 2 | Individual project | Orienting |
 | 1.3 | Sprint 3 | Individual project | Orienting |
-| 1.4 | Sprint 4 | Individual project | Orienting |
+| 1.4 | Sprint 4 | Individual project | Beginning |
 
 #### Substantiation
 
@@ -322,8 +322,16 @@ I created an api in Golang with gRPC with its own database (mongodb) this repo c
 https://user-images.githubusercontent.com/73555911/232321955-ddfa006d-04c0-4e30-b78c-407b2798ff43.mp4
 
 1.3: Sprint 3
+I started to add the code for implementing a delete function over multiple micro services with the use of messaging. Therefore I did some refactoring to split the responsible functions for messaging, db handling and grpc handling so I could work more easily in the next sprint. I also could send a message when performing a certain method, but I didn't do anything with it.
+
 
 1.4: Sprint 4
+This sprint I made it possible to handle distributed data by calling the delete request to my api gateway and let the user service handle it to delete all records involving the user id to delete all records.
+
+
+
+https://github.com/Portfolio-Advanced-software/.github/assets/73555911/2c599bc0-3d35-46a3-beda-82578e00db69
+
 
 
 
