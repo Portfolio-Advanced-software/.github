@@ -227,6 +227,9 @@ I created a pipeline for my kubernetes yaml files repo. The repo will connect to
 
 ![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/1aacc052-8543-4eae-9570-e6fd38e83316)
 
+I also started a bit with testing so I can ensure high code quality and test if everything is still working correctly when a copy is pushed to docker hub
+
+![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/0c03c9b6-d337-4edf-89f7-27339431030a)
 
 
 <br>
