@@ -286,7 +286,7 @@ You investigate how to minimize security risks for your application, and you inc
 |---|---|---|---|
 | 1.0 | Sprint 0 | Group project | Undefined |
 | 1.1 | Sprint 1 | Individual project | Undefined |
-| 1.2 | Sprint 2 | Individual project | Undefined |
+| 1.2 | Sprint 2 | Individual project | Orienting |
 | 1.3 | Sprint 3 | Individual project | Orienting |
 | 1.4 | Sprint 4 | Individual project | Orienting |
 
@@ -298,6 +298,10 @@ You investigate how to minimize security risks for your application, and you inc
 I added docker secrets in my [workflow](https://github.com/Portfolio-Advanced-software/BingeBuster-MovieService/blob/main/.github/workflows/docker.yml) to push to dockerhub to hide my username and password
 
 1.2: Sprint 2
+I followed a Kubernetes course on LinkedIn Learning and they discussed a couple of little mea you can take to make your cluster a bit more secure. Like acccesing containers only as non root. 
+
+<img width="985" alt="Scherm­afbeelding 2023-05-25 om 08 50 46" src="https://github.com/Portfolio-Advanced-software/.github/assets/73555911/ef4973dc-164f-4c4d-97a8-36ecd48d7d1e">
+
 
 1.3: Sprint 3
 I created my own auth service to secure my gateway, it works with JWT-tokens and doesn't allow access when it's missing or incorrect. You can find more information in [its repo here](https://github.com/Portfolio-Advanced-software/BingeBuster-Auth-Service)
