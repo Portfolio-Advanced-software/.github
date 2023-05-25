@@ -77,7 +77,7 @@ I started thinking about how I will actually do my research based on my plan and
 I started creating the necessary prototypes for my research and testing the criteria on it. Finally I came to a conclusion that can be read in [my research here](https://github.com/Portfolio-Advanced-software/.github/blob/main/Research/Which%20technique%20is%20the%20most%20optimal%20way%20of%20communicating%20between%20micro%20services%3F.md)
 
 1.4: Sprint 4
-Previous sprint I started working with the problem we are trying to solve in [this research](https://github.com/S-A-RB05/.github/blob/main/Research/Docker%20data%20import%20and%20extraction.pdf). I made prototypes and tested several criteria on them to come to the conclusion that we need a combination of the copy command and a mounted volume.
+Previous sprint I started working with the problem we are trying to solve in [this group research](https://github.com/S-A-RB05/.github/blob/main/Research/Docker%20data%20import%20and%20extraction.pdf). I made prototypes and tested several criteria on them to come to the conclusion that we need a combination of the copy command and a mounted volume.
 
 
 <br>
