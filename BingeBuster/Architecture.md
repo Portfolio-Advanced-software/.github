@@ -7,4 +7,4 @@
 
 ## Updata
 
-![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/6af9eb5e-b2b9-44d0-8599-d95fbdd67815)
+<img width="902" alt="Scherm­afbeelding 2023-05-25 om 09 39 39" src="https://github.com/Portfolio-Advanced-software/.github/assets/73555911/a63eedf4-1b6f-470f-a2d4-96f279413354">
