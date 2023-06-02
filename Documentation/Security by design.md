@@ -66,3 +66,9 @@ And at last this one but It's my own repo therefore I trust all its content
 
 
 The rest was the same
+
+
+
+
+# Snyk
+
