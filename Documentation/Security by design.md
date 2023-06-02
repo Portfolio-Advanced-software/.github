@@ -45,6 +45,24 @@ I already knew I got to fix this and therefore I'm not surprised this came back
 
 I already worked with environment variables but I deleted them when building my pipeline because I didn't how to use it in there. I know saw on this [post](https://www.reddit.com/r/github/comments/13kfg0s/what_is_the_proper_way_to_hide_sensitive/) that you could store them somewhere in the cloud encrypted. It seems like a good and easy managable way to handle this. Firstly I will store them in an environment file for cleannes and better handling, by [this](https://towardsdatascience.com/use-environment-variable-in-your-next-golang-project-39e17c3aaa66). But unfortunately Azure for students fontys has managed the restrictions very poorly therefore I could not find the why I don't have access to my own created resource. So I went back by just using a .env file and putting that one in my .gitignore. 
 
-And I will be using github actions secrets with enviroment variables for the docker
+And I will be using github actions secrets with enviroment variables for the docker and passing the variables when starting.
 
 
+
+![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/faf72a81-fbfe-474e-b10f-ef4c5fa526a2)
+
+![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/67e88248-c0a4-45ad-a89c-d085489a61ba)
+
+
+
+I also got some duplicated code warning that i fixed by creating a function so i can reuse the rabbitmq functionality connect 
+
+![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/a3bd7eb2-66cb-4260-a6e4-757b9e063800)
+
+And at last this one but It's my own repo therefore I trust all its content
+![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/c0588926-e465-470f-8a20-ccdb769a8ae1)
+
+
+
+
+The rest was the same
