@@ -191,6 +191,7 @@ https://user-images.githubusercontent.com/73555911/232235678-c332b568-3617-40ca-
 
 
 1.4 Sprint 4
+To understand how my MongoDB instances scale in my free cluster I created a little research [that can be found here](https://github.com/Portfolio-Advanced-software/.github/blob/main/Documentation/MongoDB.md)
 
 
 <br>
