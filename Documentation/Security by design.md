@@ -72,3 +72,23 @@ The rest was the same
 
 # Snyk
 
+
+## Api gateway
+
+analyze after sonarcloud
+![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/1d7e5e28-d55b-48a7-972c-44f5edb0cfe9)
+
+
+I need to upgrade the alpine version to fix some dependencies issues it already created a pr so I'm going to try to use this
+
+
+After fixing it with the pr
+the only issues left are outdated dependecies
+![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/99b4b0b8-a75f-4777-be30-f89a3f10ab63)
+
+I manually fixed them
+
+I got a new one I studied it closely and It seems this security risk is only involved in using SQL lite which I don't
+
+![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/222cc0bd-7c80-4dd2-a3f5-a4e24eb50455)
+
