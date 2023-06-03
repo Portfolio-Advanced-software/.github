@@ -309,9 +309,15 @@ I followed a Kubernetes course on LinkedIn Learning and they discussed a couple 
 
 
 1.3: Sprint 3
-I created my own auth service to secure my gateway, it works with JWT-tokens and doesn't allow access when it's missing or incorrect. You can find more information in [its repo here](https://github.com/Portfolio-Advanced-software/BingeBuster-Auth-Service)
+I created [my own auth service](https://github.com/Portfolio-Advanced-software/BingeBuster-Auth-Service) to secure my gateway, it works with JWT-tokens and doesn't allow access when it's missing or incorrect. You can find more information in [its repo here](https://github.com/Portfolio-Advanced-software/BingeBuster-Auth-Service)
 
 1.4: Sprint 4
+I created an [authorization service](https://github.com/Portfolio-Advanced-software/BingeBuster-AuthzService) to complement my authentication service and to implement the different roles I set up in my architecture. This way the end points are more secured and only assigned roles can use them. Therefore making it more secure
+
+
+
+https://github.com/Portfolio-Advanced-software/.github/assets/73555911/6ec344db-4981-4f34-8a4a-baeed68cc379
+
 
 
 
