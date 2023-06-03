@@ -92,3 +92,6 @@ I got a new one I studied it closely and It seems this security risk is only inv
 
 ![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/222cc0bd-7c80-4dd2-a3f5-a4e24eb50455)
 
+
+
+While looking around I came across owasp dependency checks but I saw that snyk already did this
