@@ -366,7 +366,7 @@ I also created a function that gets all user data from services that have user d
 https://github.com/Portfolio-Advanced-software/.github/assets/73555911/d9cf3375-f93d-4615-a9d3-8eb4bb670d31
 
 
-Beside that I improved the delete all users across multiple services that didn't implement saving user data yet. And I also save multiple records across multiple services when registering. To prove how I take care of distributed data I created [a document](https://github.com/Portfolio-Advanced-software/.github/blob/main/Documentation/Distributed%20data.md) about it
+Beside that I improved the delete all users across multiple services that didn't implement saving user data yet. And I also save multiple records across multiple services when registering. To prove how I take care of distributed data I created [a document](https://github.com/Portfolio-Advanced-software/.github/blob/main/Documentation/Distributed%20data.md) about it. Beside that I also researched how my free MongoDB cluster scales and handles CAP. You can read it [here](https://github.com/Portfolio-Advanced-software/.github/blob/main/Documentation/MongoDB.md).
 
 
 <br>
