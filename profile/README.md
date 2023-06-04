@@ -243,6 +243,22 @@ I also started a bit with testing so I can ensure high code quality and test if 
 ![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/0c03c9b6-d337-4edf-89f7-27339431030a)
 
 
+1.5 Sprint 5
+I implemented monitoring from my api gateway requests with Prometheus and Grafana. I both deployed them in the cluster with the rest. I also build in an extra endpoint at which Prometheus can retrieve metrics:
+
+![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/1dd31689-230c-448b-9b35-5db12d891d6b)
+
+
+To visualize the data gathered with Prometheus I created two simple graphs in Grafana:
+
+![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/676ffc6b-162c-4bab-a446-86fdfccc8077)
+
+
+After all I linked Snyk and SonarCloud to my repos that compare the new code with previous commits to see if there are any new security risks. If it is passed the marge it will come back with a non passed check mark and I will get notified.
+
+![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/6b52c01f-1ea6-4371-8cc6-fec30c7e3a91)
+
+
 <br>
 
 
