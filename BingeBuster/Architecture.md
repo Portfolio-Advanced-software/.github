@@ -13,4 +13,4 @@
 
 ## Updated C2
 
-![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/450376c4-f221-4d9b-9cb1-abd9fd7e0688)
+![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/d684ce60-666c-4ee3-9da6-94d118467fb6)
