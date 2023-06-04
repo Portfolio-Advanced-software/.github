@@ -195,6 +195,8 @@ I created an [API gateway](https://github.com/Portfolio-Advanced-software/API-Ga
 To understand how my MongoDB instances scale in my free cluster I created a little research [that can be found here](https://github.com/Portfolio-Advanced-software/.github/blob/main/Documentation/MongoDB.md)
 
 1.5 Sprint 5  
+I created a resource mapping to prepare me for load testing [the document can be found here](https://github.com/Portfolio-Advanced-software/.github/blob/main/Resource%20mapping.pdf)
+
 I started working with my cluster in the cloud and set everything up for a scalable architecture. I create the necesarry yaml files that can be found [here](https://github.com/Portfolio-Advanced-software/BingeBuster-Cluster). The YAML files create a pod deployment for every user expose it as a service because I couldn't get the DNS service to work. I also deployed Prometheus and Grafana to monitor. At last I created a service to expose my api gateway to the internet and a horizontal pod scaler that scales according to the generated load:
 
 ![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/0bd69c7d-c3e7-49c8-8327-c8324f8437f6)
