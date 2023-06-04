@@ -59,9 +59,9 @@ Solution: Do a dependency check and implement checks that secures the source cod
 
 
 ### 9. Security Logging and Monitoring Failures
-Risk:
+Risk: If anything in your code happens that doesn't break your code and isn't logged you probably won't noticed. Therefore you can't handle accordingly. While logging it is also important to notice that only safe things are logged and nothing that could put the system in harms way.
 
-Solution:
+Solution: Create clear logs and check that they used standardized codes to prevent logging unwanted data.
 
 
 ### 10. Server-Side Request Forgery (SSRF) 
