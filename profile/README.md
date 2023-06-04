@@ -167,6 +167,7 @@ Besides functionality, you develop the architecture of enterprise software based
 | 1.2 | Sprint 2 | Individual project | Beginning |
 | 1.3 | Sprint 3 | Individual project | Beginning |
 | 1.4 | Sprint 4 | Individual project | Beginning |
+| 1.5 | Sprint 5 | Individual project | Proficient |
 
 #### Substantiation
 
@@ -192,6 +193,11 @@ https://user-images.githubusercontent.com/73555911/232235678-c332b568-3617-40ca-
 
 1.4 Sprint 4
 To understand how my MongoDB instances scale in my free cluster I created a little research [that can be found here](https://github.com/Portfolio-Advanced-software/.github/blob/main/Documentation/MongoDB.md)
+
+1.5 Sprint 5
+I started working with my cluster in the cloud and set everything up for a scalable architecture. I create the necesarry yaml files that can be found [here](https://github.com/Portfolio-Advanced-software/BingeBuster-Cluster). The YAML files create a pod deployment for every user expose it as a service because I couldn't get the DNS service to work. I also deployed Prometheus and Grafana to monitor. At last I created a service to expose my api gateway to the internet and a horizontal pod scaler that scales according to the generated load:
+
+![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/0bd69c7d-c3e7-49c8-8327-c8324f8437f6)
 
 
 <br>
