@@ -25,9 +25,9 @@ Solution: I could implement escaping special characters, but in a manner this al
 
 
 ### 4. Insecure design 
-Risk:
+Risk: I think it's good to see implementing security as a process, meaning while developing looking at it in different phases of the development. I also noticed that exposing credentials online is irreversible, so you can never take it back so setting this up from day one is a good implementation.
 
-Solution:
+Solution: Spend time thinking about security aspects in your project and look into when it is important and how to begin with it.
 
 
 ### 5. Security misconfiguration
