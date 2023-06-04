@@ -18,6 +18,55 @@ Risk: Exposing encrypted values, this could happen it my application uses old ha
 Solution: It's better to use HTTPS or TLS and check if hashing methods are out of date.
 
 
+### 3. Injection
+Risk:
+
+Solution:
+
+
+### 4. Insecure design 
+Risk:
+
+Solution:
+
+
+### 5. Security misconfiguration
+Risk:
+
+Solution:
+
+
+### 6. Vulnerable and Outdated Components
+Risk: having outdated dependencies or outdated versions, this could lead to security risks that are discovered in that specific version. 
+
+Solution: Normally I just grab the lastest version, but sometimes when following a tutorial I might unawerely use an older version. I already implemented static security checks that I will discuss later in this document. This helps shine some light on these risks.
+
+
+
+
+### 7. Identification and Authentication Failures
+Risk:
+
+Solution:
+
+
+### 8. Software and Data Integrity Failures
+Risk:
+
+Solution:
+
+
+### 9. Security Logging and Monitoring Failures
+Risk:
+
+Solution:
+
+
+### 10. Server-Side Request Forgery (SSRF) 
+Risk:
+
+Solution:
+
 
 
 # Sonarcloud
