@@ -31,9 +31,9 @@ Solution: Spend time thinking about security aspects in your project and look in
 
 
 ### 5. Security misconfiguration
-Risk:
+Risk: Exposable information that gets exposed in your code or by other settings, like not used features or default credentials. This could be a risk for my application as I installed a lot of dependencies and am not sure if I still use them. I also haven't changed my basic credentials from my cloud providers.
 
-Solution:
+Solution: Change all credentials with a password generatore and don't store on public accesible storage. Also do a dependency check. 
 
 
 ### 6. Vulnerable and Outdated Components
