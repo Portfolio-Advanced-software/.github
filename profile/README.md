@@ -335,6 +335,7 @@ You are aware of specific data requirements for enterprise systems. You apply be
 | 1.2 | Sprint 2 | Individual project | Orienting |
 | 1.3 | Sprint 3 | Individual project | Orienting |
 | 1.4 | Sprint 4 | Individual project | Beginning |
+| 1.5 | Sprint 5 | Individual project | Proficient |
 
 #### Substantiation
 
@@ -359,6 +360,13 @@ This sprint I made it possible to handle distributed data by calling the delete 
 https://github.com/Portfolio-Advanced-software/.github/assets/73555911/2c599bc0-3d35-46a3-beda-82578e00db69
 
 
+1.5: Sprint 5
+I also created a function that gets all user data from services that have user data stored from that id. I return it in a string format for simplicitity.
+
+https://github.com/Portfolio-Advanced-software/.github/assets/73555911/d9cf3375-f93d-4615-a9d3-8eb4bb670d31
+
+
+Beside that I improved the delete all users across multiple services that didn't implement saving user data yet. And I also save multiple records across multiple services when registering. To prove how I take care of distributed data I created [a document](https://github.com/Portfolio-Advanced-software/.github/blob/main/Documentation/Distributed%20data.md) about it
 
 
 <br>
