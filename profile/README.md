@@ -293,7 +293,8 @@ You investigate how to minimize security risks for your application, and you inc
 | 1.1 | Sprint 1 | Individual project | Undefined |
 | 1.2 | Sprint 2 | Individual project | Orienting |
 | 1.3 | Sprint 3 | Individual project | Orienting |
-| 1.4 | Sprint 4 | Individual project | Orienting |
+| 1.4 | Sprint 4 | Individual project | Beginning |
+| 1.5 | Sprint 5 | Individual project | Proficient |
 
 #### Substantiation
 
@@ -312,13 +313,16 @@ I followed a Kubernetes course on LinkedIn Learning and they discussed a couple 
 I created [my own auth service](https://github.com/Portfolio-Advanced-software/BingeBuster-Auth-Service) to secure my gateway, it works with JWT-tokens and doesn't allow access when it's missing or incorrect. You can find more information in [its repo here](https://github.com/Portfolio-Advanced-software/BingeBuster-Auth-Service)
 
 1.4: Sprint 4
-I created an [authorization service](https://github.com/Portfolio-Advanced-software/BingeBuster-AuthzService) to complement my authentication service and to implement the different roles I set up in my architecture. This way the end points are more secured and only assigned roles can use them. Therefore making it more secure
-
-
+I created an [authorization service](https://github.com/Portfolio-Advanced-software/BingeBuster-AuthzService) to complement my authentication service and to implement the different roles I set up in my architecture. This way the end points are more secured and only assigned roles can use them. Therefore making it more secure.
 
 https://github.com/Portfolio-Advanced-software/.github/assets/73555911/6ec344db-4981-4f34-8a4a-baeed68cc379
 
+I also test if my password hashing method works and doesn't expose the password.
 
+1.5: Sprint 5
+I created a [Security by design document](https://github.com/Portfolio-Advanced-software/.github/blob/main/Documentation/Security%20by%20design.md) in this document I look at OWASP and there top ten and compare the risks to my own application and see what solutions they provide that I think are implementable. Beside that I also look at static security testing with Snyk and SonarCloud. 
+
+I also created a .env file in all my repo's with empty values that I locally save and are not pushed to the repo. This means I no longer expose sensitive credentials. You have to pass these environment variables to the published docker containers when trying to start.
 
 
 <br>
