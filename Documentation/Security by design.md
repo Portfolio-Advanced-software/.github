@@ -19,9 +19,9 @@ Solution: It's better to use HTTPS or TLS and check if hashing methods are out o
 
 
 ### 3. Injection
-Risk:
+Risk: This one is a bit less risky, because I don't have post requests on every api endpoint and I'm not using SQL. SQL is a bigger risk then NoSQL or at least that's what I'm noticing around the internet and the OWASP site. 
 
-Solution:
+Solution: I could implement escaping special characters, but in a manner this also has to do with access control, if you can't get to it in the first place you don't have to worry about it.
 
 
 ### 4. Insecure design 
