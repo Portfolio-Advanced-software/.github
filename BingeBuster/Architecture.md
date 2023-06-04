@@ -9,3 +9,8 @@
 ## Updated C2
 
 <img width="902" alt="Scherm­afbeelding 2023-05-25 om 09 39 39" src="https://github.com/Portfolio-Advanced-software/.github/assets/73555911/a63eedf4-1b6f-470f-a2d4-96f279413354">
+
+
+## Updated C2
+
+![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/450376c4-f221-4d9b-9cb1-abd9fd7e0688)
