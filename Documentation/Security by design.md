@@ -53,9 +53,9 @@ Solution: Demand users to create a strong password and maybe even MFA. Log faile
 
 
 ### 8. Software and Data Integrity Failures
-Risk:
+Risk: Trusting third party dependencies could lead to unwanted breach of security. Not only with dependencies but pipelines and installing packages.
 
-Solution:
+Solution: Do a dependency check and implement checks that secures the source code is from the right source. I think this might apply to me so doing a dependency check to start isn't a bad idea.
 
 
 ### 9. Security Logging and Monitoring Failures
