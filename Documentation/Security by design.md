@@ -1,4 +1,6 @@
 # Security by design
+In this document I will talk about some things that I thought of or did to validate a bit of security in my application.
+
 
 ## OWASP
 OWASP stands for The Open Worldwide Application Security Project and it's main goal is to improve the security of software all over the world. They provide a standard top 10 document for every developer. I will be using this document to select what is importing to take into account for my individual project BingeBuser, a netflix clone.
@@ -45,9 +47,9 @@ Solution: Normally I just grab the lastest version, but sometimes when following
 
 
 ### 7. Identification and Authentication Failures
-Risk:
+Risk: This is always a risk when accounts are involved like my application. People could bruteforce credentials to have access to certain parts of the application.
 
-Solution:
+Solution: Demand users to create a strong password and maybe even MFA. Log failed login attempts.
 
 
 ### 8. Software and Data Integrity Failures
@@ -67,9 +69,11 @@ Risk:
 
 Solution:
 
+<br>
 
 
-# Sonarcloud
+## Static Security tests
+### Sonarcloud
 
 
 
@@ -131,9 +135,9 @@ And at last this one but It's my own repo therefore I trust all its content
 The rest was the same
 
 
+<br>
 
-
-# Snyk
+### Snyk
 
 
 ## Api gateway
