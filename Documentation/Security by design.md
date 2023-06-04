@@ -44,8 +44,6 @@ Risk: having outdated dependencies or outdated versions, this could lead to secu
 Solution: Normally I just grab the lastest version, but sometimes when following a tutorial I might unawerely use an older version. I already implemented static security checks that I will discuss later in this document. This helps shine some light on these risks.
 
 
-
-
 ### 7. Identification and Authentication Failures
 Risk: This is always a risk when accounts are involved like my application. People could bruteforce credentials to have access to certain parts of the application.
 
@@ -65,9 +63,11 @@ Solution: Create clear logs and check that they used standardized codes to preve
 
 
 ### 10. Server-Side Request Forgery (SSRF) 
-Risk:
+Risk: People can force the server to make a request to an endpoint to inject data or get sensitive data. It is also a risk in my application but not the biggest. 
 
-Solution:
+Solution: Here it can also help to disable all by default so ones you didn't knew of are blocked
+
+
 
 <br>
 
