@@ -1,7 +1,21 @@
 # Security by design
 
-- Access only the data that users have access to
-- 
+## OWASP
+OWASP stands for The Open Worldwide Application Security Project and it's main goal is to improve the security of software all over the world. They provide a standard top 10 document for every developer. I will be using this document to select what is importing to take into account for my individual project BingeBuser, a netflix clone.
+
+![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/f4fbc04a-47bb-4aa4-8bbc-47730e628279)
+
+
+### 1. Broken Access Control 
+Risk: The first one is already relevant, because of manipulating data without the right permission could cause serious harm in my application. Like removing movies which the whole platform relies on it. This could also result in exposing personal information and a privacy debreach.
+
+Solution: A simple way is to deny every access point by default, I don't have public ones so this would be an easy way to already cover some risks.
+
+
+### 2. Cryptographic Failures 
+Risk: Exposing encrypted values, this could happen it my application uses old hashing methods or with a default key, but also transporting sensitive information on non-encrypted communication protocols like HTTP. 
+
+Solution: It's better to use HTTPS or TLS and check if hashing methods are out of date.
 
 
 
