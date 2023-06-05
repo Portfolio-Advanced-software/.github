@@ -216,7 +216,7 @@ You set up environments and tools which support your chosen software development
 | 1.2 | Sprint 2 | Individual project | Orienting |
 | 1.3 | Sprint 3 | Individual project | Orienting |
 | 1.4 | Sprint 4 | Individual project | Beginning |
-
+| 1.5 | Sprint 5 | Individual project | Proficient |
 
 #### Substantiation
 
@@ -255,6 +255,7 @@ To visualize the data gathered with Prometheus I created two simple graphs in Gr
 
 ![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/676ffc6b-162c-4bab-a446-86fdfccc8077)
 
+I created more security test to test endpoints to get 401 and 403 without role or auth and also 200 if it succeeded with the right credentials. Beside that I created some tests that tested my auth implementation to login and register both happy and sad flow.
 
 After all I linked Snyk and SonarCloud to my repos that compare the new code with previous commits to see if there are any new security risks. If it is passed the marge it will come back with a non passed check mark and I will get notified.
 
@@ -349,6 +350,8 @@ I created a [Security by design document](https://github.com/Portfolio-Advanced-
 I also created a .env file in all my repo's with empty values that I locally save and are not pushed to the repo. This means I no longer expose sensitive credentials. You have to pass these environment variables to the published docker containers when trying to start.
 
 
+At last I tested multiple endpoints in my gateway one with specific roles and one with auths and one without to succeed in happy and sad flow and resulting in the corresponding HTTP codes, I did this by mocking the gRPC services.
+
 <br>
 
 
@@ -412,7 +415,7 @@ During sprint 1 I focussed to much on the group project and less on my individua
 During sprint 2 I had a little bit less time because I was ill, but none theless I created some building blocks that will help me next sprint to get to the learning outcomes quicker and I already start to get familiar with certain topics.
 
 ### Sprint 3  
-
+During sprint 3 I made a good 
 
 ### Sprint 4   
 
