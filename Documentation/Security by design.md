@@ -74,34 +74,34 @@ Solution: Here it can also help to disable all by default so ones you didn't kne
 
 ## Static Security tests
 ### Sonarcloud
-
+I started with Sonarcloud and tested a few services after implementing this in the rest of the services resolved the same issues.
 
 
 ## WatchHistory-service
-First report
+First report on SonarCloud
 
 ![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/e3ca7930-e4fe-4d68-a19e-7e7b1f37a9a1)
 
 
-
 ## Auth-service
-First report
+First report on SonarCloud
 
 ![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/7d7f96fd-d8d0-4986-be3d-42defa5a850d)
 
-It says to not let it build and run with root user permissions therefore i started to look what it is and how to fix it.
+It says to not let it build and run with root user permissions therefore I started to look what it is and how to fix it.
 
 ![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/bdcd7628-df16-4023-bd95-bc4e2987c0f4)
 
-[this forum post](https://stackoverflow.com/questions/68155641/should-i-run-things-inside-a-docker-container-as-non-root-for-safety) cleared it up
+[this forum post](https://stackoverflow.com/questions/68155641/should-i-run-things-inside-a-docker-container-as-non-root-for-safety) cleared it up how to fix it
 
-by adding this line I create a user that will be used to start the docker and resolving the security risk
+
+by adding this line I create a user that will be used to start the docker and resolving the security risk so root isn't doing it.
 ![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/4aa4bb11-cbc4-4806-84d3-ddda1643074d)
 
 
 
 ## Movie service
-First report
+First report on SonarCloud
 
 ![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/79626c00-14d9-4bc2-a44b-705a0e164cbc)
 
@@ -110,9 +110,9 @@ I already knew I got to fix this and therefore I'm not surprised this came back
 ![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/21128cea-5f5d-4c55-8ed9-d3a3b0400757)
 
 
-I already worked with environment variables but I deleted them when building my pipeline because I didn't how to use it in there. I know saw on this [post](https://www.reddit.com/r/github/comments/13kfg0s/what_is_the_proper_way_to_hide_sensitive/) that you could store them somewhere in the cloud encrypted. It seems like a good and easy managable way to handle this. Firstly I will store them in an environment file for cleannes and better handling, by [this](https://towardsdatascience.com/use-environment-variable-in-your-next-golang-project-39e17c3aaa66). But unfortunately Azure for students fontys has managed the restrictions very poorly therefore I could not find the why I don't have access to my own created resource. So I went back by just using a .env file and putting that one in my .gitignore. 
+I already worked with environment variables but I deleted them when building my pipeline because I didn't how to use it in there. I know saw on this [post](https://www.reddit.com/r/github/comments/13kfg0s/what_is_the_proper_way_to_hide_sensitive/) that you could store them somewhere in the cloud encrypted. It seems like a good and easy managable way to handle this. Firstly I will store them in an environment file for cleanliness and better handling, by [this](https://towardsdatascience.com/use-environment-variable-in-your-next-golang-project-39e17c3aaa66). But unfortunately Azure for students fontys has managed the restrictions very poorly therefore I could not find out why I don't have access to my own created resource. So I went back by just using a .env file and putting that one in my .gitignore so t doesn't push or pull and put a example one in the repo.
 
-And I will be using github actions secrets with enviroment variables for the docker and passing the variables when starting.
+When running the docker you need to pass down the environment variables, this way the docker is also more versatile.
 
 
 
@@ -122,17 +122,13 @@ And I will be using github actions secrets with enviroment variables for the doc
 
 
 
-I also got some duplicated code warning that i fixed by creating a function so i can reuse the rabbitmq functionality connect 
+I also got some duplicated code warning that I fixed by creating a function so i can reuse the rabbitmq functionality like the connect method. 
 
 ![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/a3bd7eb2-66cb-4260-a6e4-757b9e063800)
 
-And at last this one but It's my own repo therefore I trust all its content
+And at last this one but it's my own repo therefore I trust all its content and it can be ignored.
 ![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/c0588926-e465-470f-8a20-ccdb769a8ae1)
 
-
-
-
-The rest was the same
 
 
 <br>
@@ -142,23 +138,20 @@ The rest was the same
 
 ## Api gateway
 
-analyze after sonarcloud
+First report after Sonarcloud
 ![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/1d7e5e28-d55b-48a7-972c-44f5edb0cfe9)
 
 
-I need to upgrade the alpine version to fix some dependencies issues it already created a pr so I'm going to try to use this
+I need to upgrade the alpine version to fix some dependencies issues it already created a pr so I'm going to try to use this.
 
 
-After fixing it with the pr
-the only issues left are outdated dependecies
+After fixing it with the pr the only issues left are outdated dependecies.
 ![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/99b4b0b8-a75f-4777-be30-f89a3f10ab63)
 
-I manually fixed them
-
-I got a new one I studied it closely and It seems this security risk is only involved in using SQL lite which I don't
+I manually fixed some of them after I got a new one I studied it closely and It seems this security risk is only involved in using SQL lite which I don't.
 
 ![image](https://github.com/Portfolio-Advanced-software/.github/assets/73555911/222cc0bd-7c80-4dd2-a3f5-a4e24eb50455)
 
 
 
-While looking around I came across owasp dependency checks but I saw that snyk already did this
+While looking around I came across OWASP dependency checks but I saw that Snyk already implemented this therefore ending this static security test report.
