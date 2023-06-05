@@ -415,9 +415,11 @@ During sprint 1 I focussed to much on the group project and less on my individua
 During sprint 2 I had a little bit less time because I was ill, but none theless I created some building blocks that will help me next sprint to get to the learning outcomes quicker and I already start to get familiar with certain topics.
 
 ### Sprint 3  
-During sprint 3 I made a good 
+During sprint 3 I made a good beginning to create a scalable architecture so all my services were coming and working together. I need to start with the cloud because I'm expecting to spend some time on it, beside that I want to create a planning and discuss it with the teachers so I know what I have to do because my overview is a bit lost. 
 
 ### Sprint 4   
+During sprint 4 I discussed the planning with the teachers and started to better my code to let the services work together and also recreating my C2 to get a clear overview. I started working on the planning and I want to dive a bit deeper into some aspects next spring like messaging, scaling and what kind of tests I can write.
+
 
 ### Sprint 5   
 
