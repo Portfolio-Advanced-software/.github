@@ -422,9 +422,8 @@ During sprint 4 I discussed the planning with the teachers and started to better
 
 
 ### Sprint 5   
-
+During sprint 5 I could connect the learning outcomes together to do everything in the cloud so I did most of the stuff working with the cloud. This sprint a lot became clear and therefore I could work very efficiently. I also worked off every discussed thing on the planning I created.
 
 
 ## Conclusion
-Here, at the end of the semester, you reflect on your process and end result. You can also refer back to the goals you set in the introduction, to see to what extent you were able to achieve them. 
-Also mention what you are proud of, what you would like to do differently in the coming semesters and whether you have come to different insights about the field of study. Is there perhaps a particular subject you would like to explore further?
+The topics included in this semester were very interesting and I learned a lot. Beside that I really wanted to learn how an application operates in such a scalable architecture and this became very clear to me. I did not have any specific goals or expectations this semester, because I'm always interesting in learning something new. I also could dive into a lot of topics, but with every semester I must say that there wasn't much time to dive deeper into these topics and specialise a bit.
